@@ -1,0 +1,313 @@
+﻿@page "/Habilidades"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+
+
+<PageTitle>@localizer["MenuConocimientos"]</PageTitle>
+
+
+<h1>@localizer["MenuConocimientos"]</h1>
+<figure class="table" style="width:86.97%;">
+    <table class="ck-table-resized">
+        <colgroup>
+            <col style="width:43.23%;">
+            <col style="width:56.77%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>@localizer["lbl1"]</td>
+                <td>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>Visual Basic</li>
+                        <li>ASP.NET</li>
+                        <li>TypeScript</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+          
+                <td>@localizer["lbl2"]</td>
+                <td>
+                    <ul>
+                        <li>NET MAUI</li>
+                        <li>Android Studio</li>
+                        <li>Flutter</li>
+                        <li>Xamarin</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+             
+                <td>@localizer["lbl3"]</td>
+                <td>
+                    <ul>
+                        <li>Dependency Injection e IoC&nbsp;</li>
+                        <li>MVC&nbsp;</li>
+                        <li>MVVM&nbsp;</li>
+                        <li>Circuit Braker&nbsp;</li>
+                        <li>Fan in Fan Out (Durable Functions)&nbsp;</li>
+                        <li>MVP&nbsp;</li>
+                        <li>Factory&nbsp;</li>
+                        <li>Iterator&nbsp;</li>
+                        <li>Proxy&nbsp;</li>
+                        <li>Builder&nbsp;</li>
+                        <li>Adapter&nbsp;</li>
+                        <li>Chain of Responsibility&nbsp;</li>
+                        <li>Bridge</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl4"]</td>
+              
+                <td>
+                    <ul>
+                        <li>SOLID&nbsp;</li>
+                        <li>YAGNI</li>
+                        <li>&nbsp;DRY</li>
+                        <li>&nbsp;KISS</li>
+                        <li>&nbsp;Scrum Agile</li>
+                        <li>CMMI 3</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                
+                <td>@localizer["lbl5"]</td>
+                <td>
+                    <ul>
+                        <li>Entity Framework&nbsp;</li>
+                        <li>Dapper Bot</li>
+                        <li>NET. Framework&nbsp;</li>
+                        <li>NET Blazor&nbsp;</li>
+                        <li>ExpressJS&nbsp;</li>
+                        <li>Django</li>
+                        <li>Springboot</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+            
+                <td>@localizer["lbl6"]</td>
+                <td>
+                    <ul>
+                        <li>Bit Bucket&nbsp;</li>
+                        <li>GITHub&nbsp;</li>
+                        <li>GitLab&nbsp;</li>
+                        <li>eam Services&nbsp;</li>
+                        <li>SVN Tortoise&nbsp;</li>
+                        <li>Microsoft Source Safe</li>
+                        <li>GitHub</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+              
+
+                <td>@localizer["lbl7"]</td>
+
+                <td>
+                    <ul>
+                        <li>Jenkins</li>
+                        <li>CodeBuild</li>
+                        <li>ArgoCD</li>
+                        <li>MAMBU</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl8"]</td>
+                <td>
+                    <ul>
+                        <li>VueJs&nbsp;</li>
+                        <li>jQuery&nbsp;</li>
+                        <li>Razor&nbsp;</li>
+                        <li>Blazor (Web Assembly)&nbsp;</li>
+                        <li>Angular&nbsp;</li>
+                        <li>Bootstrap&nbsp;</li>
+                        <li>ReactJs&nbsp;</li>
+                        <li>NextJs&nbsp;</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl9"]</td>
+                <td>
+                    <ul>
+                        <li>Jira</li>
+                        <li>Terraform</li>
+                        <li>Docker&nbsp;</li>
+                        <li>CMS (Umbraco, WordPress)</li>
+                        <li>Elastic Search&nbsp;</li>
+                        <li>Crystal Reports/</li>
+                        <li>Reporting Services&nbsp;</li>
+                        <li>Integration Services&nbsp;</li>
+                        <li>Enterprise architect</li>
+                        <li>Post Man&nbsp;</li>
+                        <li>PowerShell</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl10"]</td>
+            
+                <td>
+                    <ul>
+                        <li>SQL Server&nbsp;</li>
+                        <li>SyBase&nbsp;</li>
+                        <li>MySql&nbsp;</li>
+                        <li>MongoDB&nbsp;</li>
+                        <li>Oracle&nbsp;</li>
+                        <li>SQL Lite</li>
+                         
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl11"]</td>
+                <td>
+                    <ul>
+                        <li>Windows 11&nbsp;</li>
+                        <li>Windows IoT&nbsp;</li>
+                        <li>Solaris 11,&nbsp;&nbsp;</li>
+                        <li>Windows Server Core&nbsp;</li>
+                        <li>Linux Ubuntu, CentOs</li>
+                        <li>OS X</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl12"]</td>
+                <td>
+                    <ul>
+                        <li>JMeter&nbsp;</li>
+                        <li>Accunetix&nbsp;</li>
+                        <li>MSTest&nbsp;</li>
+                        <li>Xunit&nbsp;</li>
+                        <li>SmokeTest</li>
+                        <li>&nbsp;AppCenter</li>
+                        <li>Sonar</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl13"]</td>
+                <td>
+                    <ul>
+                        <li>RabbitMQ</li>
+                        <li>Kafka Zookeper</li>
+                        <li>PubSub</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Reportes</td>
+                <td>
+                    <ul>
+                        <li>PowerBI&nbsp;</li>
+                        <li>Cristal Reports&nbsp;</li>
+                        <li>Extracción de datos con Informática &nbsp;y ETL´s</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl14"]</td>
+                <td>
+                    <ul>
+                        <li>KeyCloack</li>
+                        <li>Auth0</li>
+                        <li>Identity Server</li>
+                        <li>Cognito</li>
+                        <li>Active Directory</li>
+                        <li>CloudFlare</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl15"]</td>
+                <td>
+                    <ul>
+                        <li>Service Bus</li>
+                        <li>Functions</li>
+                        <li>Storage</li>
+                        <li>API Management</li>
+                        <li>SQL Azure</li>
+                        <li>Virtual Machines</li>
+                        <li>Cosmos DB</li>
+                        <li>App Service</li>
+                        <li>AKS</li>
+                        <li>Service Fabric</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl16"]</td>
+                <td>
+                    <ul>
+                        <li>SQL RDS</li>
+                        <li>EventBridge</li>
+                        <li>Step Functions</li>
+                        <li>API Gateway</li>
+                        <li>EKS</li>
+                        <li>ECS</li>
+                        <li>EC2</li>
+                        <li>App Runner</li>
+                        <li>VPC</li>
+                        <li>ECR</li>
+                        <li>CodeBuild</li>
+                        <li>CodeDeploy</li>
+                        <li>CloudFront</li>
+                        <li>CloudWatch</li>
+                        <li>Lambda</li>
+                        <li>Fargate</li>
+                        <li>S3</li>
+                        <li>SQS</li>
+                        <li>Kinesis</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>@localizer["lbl17"]</td>
+                <td>
+                    <ul>
+                        <li>Cloud Run</li>
+                        <li>Big Query</li>
+                        <li>Cloud Storage</li>
+                        <li>Compute Engine</li>
+                        <li>GKE</li>
+                        <li>Cloud SQL</li>
+                        <li>Cloud CDN</li>
+                        <li>Cloud Functions</li>
+                        <li>Apigee</li>
+                        <li>Vision AI</li>
+                        <li>Video AI</li>
+                    </ul>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>@localizer["lbl17"]</td>
+                <td>
+                    <ul>
+                      <p>
+
+
+
+
+                      </p>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>

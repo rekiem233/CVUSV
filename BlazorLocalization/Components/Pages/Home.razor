@@ -1,0 +1,46 @@
+﻿@page "/"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["MenuHome"]</PageTitle>
+
+ 
+<h1>@localizer["MenuHome"]</h1>
+
+ 
+
+<figure class="table" style="width:100%;">
+    <table class="ck-table-resized">
+        <colgroup>
+            <col style="width:27.12%;">
+            <col style="width:72.88%;">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>
+                    <p>
+                        <picture>
+                            <source srcset="https://ckbox.cloud/86bb1cc06d9fd0e49810/assets/q4Vl4YsVr7FO/images/80.webp 80w,https://ckbox.cloud/86bb1cc06d9fd0e49810/assets/q4Vl4YsVr7FO/images/160.webp 160w,https://ckbox.cloud/86bb1cc06d9fd0e49810/assets/q4Vl4YsVr7FO/images/174.webp 174w" type="image/webp" sizes="(max-width: 174px) 100vw, 174px"><img src="https://ckbox.cloud/86bb1cc06d9fd0e49810/assets/q4Vl4YsVr7FO/images/174.png" data-ckbox-resource-id="q4Vl4YsVr7FO" width="174" height="255">
+                        </picture>
+                    </p>
+                    <p>Ulises Sandria Vázquez</p>
+                </td>
+                <td>
+                    <p style="text-align:justify;">@localizer["lbldesc1"]</p>
+                    <p style="text-align:justify;">&nbsp;</p>
+                    <p style="text-align:justify;">@localizer["lbldesc2"]</p>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>@localizer["lbliam"]</strong></td>
+                <td>@localizer["lbljobs"]</td>
+            </tr>
+            <tr>
+                <td>@localizer["lbnacimiento"]</td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
