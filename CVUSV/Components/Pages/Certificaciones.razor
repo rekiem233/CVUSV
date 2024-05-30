@@ -1,0 +1,47 @@
+﻿@page "/Certificaciones"
+
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+
+<PageTitle>@localizer["MenuCertificaciones"]</PageTitle>
+
+
+<div class="table-users">
+    <div class="header">@localizer["MenuCertificaciones"]</div>
+    <table cellspacing="0">
+
+        <tr>
+            <th>@localizer["MenuCertificaciones"]</th>
+            <th>Diplomas</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+
+                    <li><a target="_blank" href="/img/vmwarecerts.pdf">VSphere 7</a></li>
+
+                    <li>Tanzu Kubernetes Mission Control&nbsp;</li>
+                    <li>Cloud Native</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a target="_blank" href="/img/azure.pdf">Azure DevOps</a></li>
+
+                    <li>Azure Infraestructure</li>
+                    <li><a target="_blank" href="/img/linux.pdf">Linux Essentials</a></li>
+
+                    <li><a target="_blank" href="/img/xamarin.pdf">Xamarin</a></li>
+
+                    <li><a target="_blank" href="/img/scrum.pdf">Scrum</a></li>
+
+                    <li>AWS Services</li>
+                </ul>
+            </td>
+        </tr>
+
+    </table>
+</div>

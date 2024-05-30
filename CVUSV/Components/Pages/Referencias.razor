@@ -1,0 +1,39 @@
+﻿@page "/Referencias"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+
+<PageTitle>@localizer["MenuReferencias"]</PageTitle>
+ 
+
+ 
+<div class="table-users">
+    <div class="header">@localizer["MenuReferencias"]</div>
+    <table>
+        <tbody>
+            <tr>
+                <th>Repositorio GitHub</th>
+            </tr>
+            <tr>
+                <td>
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/rekiem233/">https://github.com/rekiem233/</a></p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Web API Demo NET 8 C#(SQL Server)</th>
+            </tr>
+            <tr>
+                <td>
+                    <p><a target="_blank" rel="noopener noreferrer" href="http://rekiemsoftware-001-site24.jtempurl.com/swagger/index.html">http://rekiemsoftware-001-site24.jtempurl.com/swagger/index.html</a></p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+         
+        
+        </tbody>
+    </table>
+</div>
+<small>@localizer["lblsitedesc"]</small>

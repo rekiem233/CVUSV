@@ -1,0 +1,183 @@
+﻿@page "/Contacto"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@using System.Net.Mail
+@using System.ComponentModel.DataAnnotations
+@inject IStringLocalizer<Resources> localizer
+
+
+<PageTitle>@localizer["MenuContacto"]</PageTitle>
+
+
+<h1>@localizer["MenuContacto"]</h1>
+
+<style>
+    
+    input[type=text] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+
+
+ 
+
+<h7>@localizer["lblmes"]</h7>
+<br />
+<br />
+ <div class="container">
+<EditForm Model="Model" OnValidSubmit=@ValidFormSubmitted OnInvalidSubmit=@InvalidFormSubmitted FormName="Starship8">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+
+            <label for="fname">@localizer["lblnombre"]</label>  <InputText @bind-Value="Model!.Nombre" maxlength="20" />
+         
+        <label>
+                @localizer["lblcorreo"]/ @localizer["lbltelefono"]
+            <InputText typeof="email" @bind-Value="Model!.Correo" placeholder="nombre" maxlength="30" />
+        </label>
+        
+        <label>
+                @localizer["lbmeasa"]
+                <InputText @bind-Value="Model!.Mensaje" maxlength="500"  />
+        </label>
+            <br />   <br /><br />
+            <button type="submit">@localizer["lbltnsend"]</button>
+            <br /><br />
+        </div> 
+        
+        <label>
+            @Model.MensajeEnvio
+        </label>
+</EditForm>
+
+
+</div>
+
+@code {
+    private EditContext? editContext;
+
+
+    [SupplyParameterFromForm]
+    public Starship? Model { get; set; }
+
+    protected override void OnInitialized() => Model ??= new();
+
+    private void Submit()
+    {
+        sendmessage();
+        //    Logger.LogInformation("Id = {Id}", Model?.Id);
+    }
+
+    public class Starship
+    {
+        [Required]
+        [StringLength(20, ErrorMessage = "Requerido maximo 20 caracteres")]
+        public string Nombre { get; set; }
+        [Required]
+        [StringLength(30, ErrorMessage = "Correo o telefono requerido")]
+        public string Correo { get; set; }
+        [Required]
+        [StringLength(500, ErrorMessage = "Mensaje requerido maximo 500 caracteres")]
+        public string Mensaje { get; set; }
+
+        public string MensajeEnvio { get; set; }
+    }
+    string LastSubmitResult;
+
+    void ValidFormSubmitted(EditContext editContext)
+    {
+        sendmessage();
+    }
+
+    void InvalidFormSubmitted(EditContext editContext)
+    {
+        LastSubmitResult = "OnInvalidSubmit was executed";
+    }
+
+    void sendmessage()
+    {
+
+
+        if (Model.Nombre == null)
+            return;
+
+        if (Model.Correo == null)
+            return;
+
+
+        if (Model.Mensaje == null)
+            return;
+
+
+        MailMessage m = new MailMessage();
+        SmtpClient sc = new SmtpClient();
+        m.From = new MailAddress("contacto@usandria.site");
+        m.To.Add("rshake233@gmail.com");
+        m.Subject = "Alguien te busca desde tu cv";
+        sc.Host = "mail5002.site4now.net";
+        m.Body = string.Concat("Datos de Contacto ", Model.Mensaje, " ", Model.Correo, " ", Model.Nombre, " ");
+        string str1 = "gmail.com";
+        string str2 = "contacto@usandria.site";
+        if (str2.Contains(str1))
+        {
+            try
+            {
+                sc.Port = 587;
+                sc.Credentials = new System.Net.NetworkCredential("contacto@usandria.site", "Ppman233$$");
+                sc.EnableSsl = true;
+                sc.Send(m);
+                Model = new();
+                Model.MensajeEnvio = "Gracias recibimos tu datos, pronto te contactaremos.";
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+        else
+        {
+            try
+            {
+                sc.Port = 25;
+                sc.Credentials = new System.Net.NetworkCredential("contacto@usandria.site", "Ppman233$$");
+                sc.EnableSsl = false;
+                sc.Send(m);
+                Model = new();
+                Model.MensajeEnvio = "Gracias recibimos tu datos, pronto te contactaremos.";
+            }
+            catch (Exception ex)
+            {
+                 
+            }
+        }
+    }
+}

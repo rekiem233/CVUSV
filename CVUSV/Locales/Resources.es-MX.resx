@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbg5" xml:space="preserve">
+    <value>Consultor, Asignación con el cliente</value>
+  </data>
+  <data name="lbl1" xml:space="preserve">
+    <value>Lenguajes de Programación</value>
+  </data>
+  <data name="lbl10" xml:space="preserve">
+    <value>Bases de datos</value>
+  </data>
+  <data name="lbl11" xml:space="preserve">
+    <value>Sistemas operativos</value>
+  </data>
+  <data name="lbl12" xml:space="preserve">
+    <value>Pruebas</value>
+  </data>
+  <data name="lbl13" xml:space="preserve">
+    <value>Buses</value>
+  </data>
+  <data name="lbl14" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="lbl15" xml:space="preserve">
+    <value>Windows Azure</value>
+  </data>
+  <data name="lbl16" xml:space="preserve">
+    <value>Amazon Web Services</value>
+  </data>
+  <data name="lbl17" xml:space="preserve">
+    <value>Google Cloud Platform</value>
+  </data>
+  <data name="lbl2" xml:space="preserve">
+    <value>Desarrollo Móvil</value>
+  </data>
+  <data name="lbl3" xml:space="preserve">
+    <value>Patrones de programación</value>
+  </data>
+  <data name="lbl4" xml:space="preserve">
+    <value>Principios de programación y Metodologías</value>
+  </data>
+  <data name="lbl5" xml:space="preserve">
+    <value>FrameWorks</value>
+  </data>
+  <data name="lbl6" xml:space="preserve">
+    <value>Repositorios</value>
+  </data>
+  <data name="lbl7" xml:space="preserve">
+    <value>CI/CD</value>
+  </data>
+  <data name="lbl8" xml:space="preserve">
+    <value>FrontEnd</value>
+  </data>
+  <data name="lbl9" xml:space="preserve">
+    <value>Herramientas</value>
+  </data>
+  <data name="lblAct" xml:space="preserve">
+    <value>Actividades</value>
+  </data>
+  <data name="lblcomen" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="lblcorreo" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="lbldatacontact" xml:space="preserve">
+    <value>5536476820</value>
+  </data>
+  <data name="lbldate" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="lblDesc" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="lbldesc1" xml:space="preserve">
+    <value>Soy un ingeniero en software con amplia experiencia en el desarrollo, supervision e implementación de sistemas Cloud y onPremise, enfocado a utilizar las mejores prácticas vigentes del mercado, para entregar un producto eficiente, seguro, escalable y de alta disponibilidad.</value>
+  </data>
+  <data name="lbldesc2" xml:space="preserve">
+    <value>Soy una persona comprometida con mis actividades y con un alto sentido de responsabilidad ofreciendo &amp;nbsp;trabajo de gran calidad y con excelente profesionalismo.</value>
+  </data>
+  <data name="lblemail" xml:space="preserve">
+    <value>contacto@ulisessandria.com</value>
+  </data>
+  <data name="lblfoto" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="lbliam" xml:space="preserve">
+    <value>Ingeniero en sistemas(Titulado)</value>
+  </data>
+  <data name="lbljobs" xml:space="preserve">
+    <value>Líder de Desarrollo y Arquitectura</value>
+  </data>
+  <data name="lblmes" xml:space="preserve">
+    <value>Déjanos un mensaje</value>
+  </data>
+  <data name="lblnombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lbloter" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="lblproject" xml:space="preserve">
+    <value>Proyecto</value>
+  </data>
+  <data name="lblrama" xml:space="preserve">
+    <value>Rama</value>
+  </data>
+  <data name="lblresume" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="lblsitedesc" xml:space="preserve">
+    <value>Sitio desarrollado con Blazor .NET 8, EF Core, SQL Server 2019</value>
+  </data>
+  <data name="lbltec" xml:space="preserve">
+    <value>Tecnología</value>
+  </data>
+  <data name="lbltelefono" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="lbltnsend" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="lbluni" xml:space="preserve">
+    <value>UE</value>
+  </data>
+  <data name="lblw1a" xml:space="preserve">
+    <value>&lt;ul style="list-style-type:disc;"&gt;
+    &lt;li&gt;Migración de sistema Invex renacer 2007&lt;/li&gt;
+    &lt;li&gt;Desarrollo de solucion ASP.NET MVC 4.8&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de seguridad&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de datos personales&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de calculadora fiscal&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de Simulador de ahorro&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de query's a stored procedures.&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de trámites&lt;/li&gt;
+    &lt;li&gt;&lt;span lang="es" dir="ltr"&gt;Migración&lt;/span&gt; de módulo de preguntas frecuentes&lt;/li&gt;
+    &lt;li&gt;Diseño de estilos responsivos&lt;/li&gt;
+    &lt;li&gt;Programacion de web servicie de recuperacion de contraseña&lt;/li&gt;
+    &lt;li&gt;Actualizacion de formatos de reportes Crystal Reports&lt;/li&gt;
+    &lt;li&gt;Actualizacion de calculos de tope anual para reportes estadisticos&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw1b" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Diseño de arquitectura física y lógica sobre Azure y Firebase.&lt;/li&gt;
+                        &lt;li&gt;Diseño de base de datos Realtime.&lt;/li&gt;
+                        &lt;li&gt;Desarrollo de una aplicación mulltiplataforma con NET MAUI C# para venta a sector privado&lt;/li&gt;
+                        &lt;li&gt;Publicación en la tienda de Apple y Android&lt;/li&gt;
+                        &lt;li&gt;Aprovisionamiento de infraestructura para DevOps con Azure Cloud.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Aprovisionamiento de Cluster de Kubernetes.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de scripts en terraform para aprovisionamiento de servicios en Azure Cloud(Service Bus, Azure Functions, SignalR,KeyVault, Storage, API Management Dockerizacion de servicios.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de Web API .NET gRPC C# para manejo de información de usuario. Programación de métodos para manejo de Firebase storage.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de métodos para Firebase RealTime DataBase.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de métodos de autenticación en Firebase.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de métodos para uso de notificaciones push.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de conector API para uso de chatGPT.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de funciones Lambda.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Programación de conector para Azure Service Bus.&lt;/li&gt;
+                        &lt;li&gt;Programación de funciones para manejo de Mensajería(Queues y Topics) .&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Implementación de Observabilidad con Graphana, Jaegger e Istio.&amp;nbsp;&lt;/li&gt;
+                        &lt;li&gt;Implementación de patrón MVVM. Uso de GCP CLI para uso de notificaciones push&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw2" xml:space="preserve">
+    <value>Arquitectura y Desarrollo Movil y Web</value>
+  </data>
+  <data name="lblw2w" xml:space="preserve">
+    <value>Arquitectura, Desarrollo, DevOps</value>
+  </data>
+  <data name="lblw3" xml:space="preserve">
+    <value>&lt;ul&gt;
+    &lt;li&gt;Migración de interfaces HBSI, RateTigger y Gateway a NET Core.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para migración de Web API de Hoteles Cotización NET Core.&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para API de Hoteles Tarifaría (Python)&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para Conector OTA Push Disney.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para Conector OTA Push SynXis, Sabre.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para Conector OTA Push DerbySoft.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de Arquitectura para Conector OTA Push HBSI.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Desarrollo de conectores de Booking y cancelación de reservas.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Desarrollo de funcionalidad backend y base de datos para conectores push.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Desarrollo de arquitecturas resistentes para conectores HTTP con Políticas de reintento y timeout.&lt;/li&gt;
+    &lt;li&gt;&amp;nbsp;Desarrollo de Arquitectura para Servicio de cotización Bussines Intelligente y Revenue, estrategias.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mejoramiento de la Arquitectura para interface BestDay.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mejoramiento de performance a interfaces quote PULL de terceros (Restel, Tourico, Get a Room, IDISHO, GTA)&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mejoramiento de la Arquitectura para interface Valkirya.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mejoramiento y mantenimiento de Apis de producto.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Mantenimiento a visores de disponibilidad.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Puesta en producción Instalación de Proxys NgInx, Docker, k8s. Desarrollo de pipelines.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Aprovisionamiento de ambientes de desarrollo y QA. Integración de métricas de instrumentación&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Diseño de dashboards. Desarrollo de scripts SQL, funciones, procedimientos almacenados, triggers.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Desarrollo de sincronizadores de migración MySQL MSSQL.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Migración de servicios de Azure a Google Cloud Platform.&lt;/li&gt;
+    &lt;li&gt;Diseño y ejecución de Testware para pruebas distribuidas de carga.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Creación de certificados SSL Let´s Encript para conectividad segura entre interfaces.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Integración de ElasticSearch y kibana para conectividad y monitoreo entre aplicaciones.&amp;nbsp;&lt;/li&gt;
+    &lt;li&gt;Ejecución de junta Daily KanBan. Creación de Épicas. Code Review.&lt;/li&gt;
+    &lt;li&gt;Desarrollo de REST API Java&lt;/li&gt;&lt;li&gt;Desarrollo de REST API Python&lt;/li&gt;&lt;li&gt;Desarrollo de REST API NodeJS&lt;/li&gt;
+    &lt;li&gt;Desarrollo de Base de datos.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw4w" xml:space="preserve">
+    <value>&lt;ul&gt;
+    &lt;li&gt;Proyecto OXXO(C#, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Proyecto Ecommerce Walmart(C#, ASP.NET, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Proyectos Grupo Salinas(C#, Visual Basic, JavaScript, Java, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Proyectos Segob(Java, MySql, JavaScript, PHP, ASP)&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lbmeasa" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="lbnacimiento" xml:space="preserve">
+    <value>Fecha de nacimiento 12.01.1983</value>
+  </data>
+  <data name="lbw1" xml:space="preserve">
+    <value>Desarrollo Web ASP.NET</value>
+  </data>
+  <data name="MenuCertificaciones" xml:space="preserve">
+    <value>Certificaciones</value>
+  </data>
+  <data name="MenuConocimientos" xml:space="preserve">
+    <value>Habilidades</value>
+  </data>
+  <data name="MenuContacto" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="MenuExp" xml:space="preserve">
+    <value>Experiencia</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="MenuReferencias" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+</root>

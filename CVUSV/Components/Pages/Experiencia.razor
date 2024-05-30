@@ -1,0 +1,82 @@
+﻿@page "/Experiencia"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+ 
+<PageTitle>@localizer["MenuExp"]</PageTitle>
+ 
+@code {
+    IStringLocalizer<Resources> _localizer;
+    string myMarkup = string.Empty;
+    string myMarkup2 = string.Empty;
+    string myMarkup3 = string.Empty;
+    string myMarkup4 = string.Empty;
+    protected override void OnInitialized()
+    {
+        myMarkup = localizer["lblw1a"];
+        myMarkup2 = localizer["lblw1b"];
+        myMarkup3 = localizer["lblw3"];
+        myMarkup4 = localizer["lblw4w"];
+
+      
+        base.OnInitialized();
+    }
+}
+
+
+
+
+
+<div class="table-users">
+    <div class="header">@localizer["MenuExp"]</div>
+
+    <table cellspacing="0">
+        <tr>
+
+            <th width="10%">@localizer["lblproject"]</th>
+            <th width="10%">@localizer["lbldate"]</th>
+            <th width="10%">@localizer["lblDesc"]</th>
+            <th width="70%">@localizer["lblAct"]</th>
+        </tr>
+
+        <tr>
+            <td>Invex Renacer</td>
+            <td>07-24 / 5-24</td>
+            <td>@localizer["lbw1"]</td>
+            <td> @((MarkupString)myMarkup)</td>
+        </tr>
+
+
+        <tr>
+            <td>Kinich Software</td>
+            <td>10-22 / 4-23</td>
+            <td>@localizer["lblw2"]</td>
+            <td> @((MarkupString)myMarkup2)</td>
+        </tr>
+
+        <tr>
+            <td>Nexta</td>
+            <td>11-19 / 10-22</td>
+            <td>@localizer["lblw2w"]</td>
+            <td> @((MarkupString)myMarkup3)</td>
+        </tr>
+        <tr>
+            <td>BestDay</td>
+            <td>11-19 / 10-22</td>
+            <td>@localizer["lblw2w"]</td>
+            <td> @((MarkupString)myMarkup3)</td>
+        </tr>
+
+        <tr>
+            
+            <td>@localizer["lbloter"]</td>
+            <td>2007 / 2018</td>
+            <td>@localizer["lbg5"]</td>
+            <td> @((MarkupString)myMarkup4)</td>
+        </tr>
+    </table>
+</div>
+
+
+

@@ -117,8 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbg5" xml:space="preserve">
+    <value>Consultant, Client Assignment</value>
+  </data>
   <data name="lbl1" xml:space="preserve">
-    <value>Languajes</value>
+    <value>Programming Languages</value>
   </data>
   <data name="lbl10" xml:space="preserve">
     <value>DataBases</value>
@@ -145,7 +148,7 @@
     <value>Google Cloud Platform</value>
   </data>
   <data name="lbl2" xml:space="preserve">
-    <value>Movil Development</value>
+    <value>Mobile Development</value>
   </data>
   <data name="lbl3" xml:space="preserve">
     <value>Patterns</value>
@@ -171,6 +174,15 @@
   <data name="lblAct" xml:space="preserve">
     <value>Task</value>
   </data>
+  <data name="lblcomen" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblcorreo" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lbldatacontact" xml:space="preserve">
+    <value>5536476820</value>
+  </data>
   <data name="lbldate" xml:space="preserve">
     <value>Date</value>
   </data>
@@ -183,17 +195,184 @@
   <data name="lbldesc2" xml:space="preserve">
     <value>I am a person committed to my activities and with a high sense of responsibility, offering high quality work and excellent professionalism.</value>
   </data>
+  <data name="lblemail" xml:space="preserve">
+    <value>contacto@ulisessandria.com</value>
+  </data>
+  <data name="lblfoto" xml:space="preserve">
+    <value>Photo</value>
+  </data>
   <data name="lbliam" xml:space="preserve">
     <value>Graduate Engineer</value>
   </data>
   <data name="lbljobs" xml:space="preserve">
     <value>Development and Architecture Leader</value>
   </data>
+  <data name="lblmes" xml:space="preserve">
+    <value>Leave us a message</value>
+  </data>
+  <data name="lblnombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbloter" xml:space="preserve">
+    <value>Others</value>
+  </data>
   <data name="lblproject" xml:space="preserve">
     <value>Project</value>
   </data>
+  <data name="lblrama" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="lblresume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="lblsitedesc" xml:space="preserve">
+    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019</value>
+  </data>
+  <data name="lbltec" xml:space="preserve">
+    <value>Technology</value>
+  </data>
+  <data name="lbltelefono" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="lbltnsend" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="lbluni" xml:space="preserve">
+    <value>UE</value>
+  </data>
+  <data name="lblw1a" xml:space="preserve">
+    <value>&lt;ul&gt;
+
+
+ &lt;li&gt; Invex system migration reborn 2007 &lt;/li&gt;
+ &lt;li&gt; ASP.NET MVC 4.8 solution development&lt;/li&gt;
+
+ &lt;li&gt; Security module migration&lt;/li&gt;
+
+ &lt;li&gt; Migration of personal data module&lt;/li&gt;
+
+ &lt;li&gt; Migration of tax calculator module&lt;/li&gt;
+
+ &lt;li&gt; Savings Simulator module migration&lt;/li&gt;
+
+ &lt;li&gt; Migration of query's to stored procedures.&lt;/li&gt;
+
+ &lt;li&gt; Migration of procedures module&lt;/li&gt;
+
+ &lt;li&gt; FAQ module migration&lt;/li&gt;
+
+ &lt;li&gt; Responsive style design&lt;/li&gt;
+
+ &lt;li&gt; Web programming password recovery service&lt;/li&gt;
+
+ &lt;li&gt; Update of Crystal Reports report formats&lt;/li&gt;
+
+ &lt;li&gt; Update of annual cap calculations for statistical reports&lt;/li&gt;
+
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw1b" xml:space="preserve">
+    <value>&lt;ul&gt; 
+
+
+ &lt;li&gt; Design of physical and logical architecture on Azure and Firebase.&lt;/li&gt; 
+ &lt;li&gt; Realtime database design.&lt;/li&gt; 
+
+ &lt;li&gt; Development of a multiplatform application with NET MAUI C# for sale to the private sector&lt;/li&gt; 
+
+ &lt;li&gt; Publication in the Apple and Android store&lt;/li&gt; 
+
+ &lt;li&gt; Infrastructure provisioning for DevOps with Azure Cloud. &lt;/li&gt; 
+
+ &lt;li&gt; Kubernetes Cluster Provisioning. 
+ &lt;li&gt; Programming scripts in terraform for provisioning services in Azure Cloud (Service Bus, Azure Functions, SignalR, KeyVault, Storage, API Management Dockerization of services. 
+ &lt;li&gt; .NET gRPC C# Web API programming for user information management. 
+
+&lt;li&gt; 
+Programming methods to manage Firebase storage. &lt;/li&gt; 
+
+ &lt;li&gt; Programming methods for Firebase RealTime DataBase. &lt;/li&gt; 
+
+ &lt;li&gt; Programming authentication methods in Firebase. &lt;/li&gt; 
+
+ &lt;li&gt; Programming methods for using push notifications. &lt;/li&gt; 
+
+ &lt;li&gt; API connector programming for chatGPT use. &lt;/li&gt; 
+
+ &lt;li&gt; Lambda function programming. &lt;/li&gt; 
+
+ &lt;li&gt; Connector programming for Azure Service Bus.&lt;/li&gt; 
+
+ &lt;li&gt; Programming functions for Messaging management (Queues and Topics). &lt;/li&gt; 
+
+ &lt;li&gt; Implementation of Observability with Graphana, Jaegger and Istio. &lt;/li&gt; 
+
+ &lt;li&gt; Implementation of MVVM pattern. Using GCP CLI to use push notifications&lt;/li&gt; 
+
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw2" xml:space="preserve">
+    <value>Architecture, Mobile and Web Development</value>
+  </data>
+  <data name="lblw2w" xml:space="preserve">
+    <value>Architecture, Development, DevOps</value>
+  </data>
+  <data name="lblw3" xml:space="preserve">
+    <value>&lt;ul&gt; 
+&lt;li&gt; Migration of HBSI, RateTigger and Gateway interfaces to NET Core.&lt;/li&gt;
+ &lt;li&gt; Architecture design for NET Core Hotel Quote Web API migration.&lt;/li&gt;
+
+ &lt;li&gt; Architecture Design for Tarifaria Hotels API (Python) &lt;/li&gt;
+
+ &lt;li&gt; Architecture Design for Disney Push OTA Connector.&lt;/li&gt;
+ &lt;li&gt; Architecture Design for SynXis Push OTA Connector, Sabre.&lt;/li&gt;
+ &lt;li&gt; Architecture Design for DerbySoft Push OTA Connector.&lt;/li&gt;
+ &lt;li&gt; Architecture Design for OTA Push HBSI Connector.&lt;/li&gt;
+ &lt;li&gt; Development of Booking connectors and cancellation of reservations.&lt;/li&gt;
+ &lt;li&gt; Development of backend functionality and database for push connectors.&lt;/li&gt;
+ &lt;li&gt; Development of resilient architectures for HTTP connectors with retry and timeout policies.&lt;/li&gt;
+
+ &lt;li&gt; Architecture Development for Intelligent Bussines and Revenue Quotation Service, strategies.&lt;/li&gt;
+ &lt;li&gt; Architecture improvement for BestDay interface.&lt;/li&gt;
+ &lt;li&gt; Performance improvement to third-party quote PULL interfaces (Restel, Tourico, Get a Room, IDISHO, GTA) &lt;/li&gt;
+
+ &lt;li&gt; Architecture improvement for Valkirya interface.&lt;/li&gt;
+ &lt;li&gt; Improvement and maintenance of product APIs.&lt;/li&gt;
+ &lt;li&gt; Maintenance of availability displays.&lt;/li&gt;
+ &lt;li&gt; Put into production Installation of NgInx, Docker, k8s Proxies.&lt;/li&gt;Pipeline development.&lt;/li&gt;
+ &lt;li&gt; Provisioning of development and QA environments.&lt;/li&gt;Integration of instrumentation metrics &lt;/li&gt;
+
+ &lt;li&gt; Dashboard design.&lt;/li&gt;Development of SQL scripts, functions, stored procedures, triggers.&lt;/li&gt;
+ &lt;li&gt; Development of MySQL MSSQL migration synchronizers.&lt;/li&gt;
+ &lt;li&gt; Migration of Azure services to Google Cloud Platform.&lt;/li&gt;
+
+ &lt;li&gt; Design and execution of Testware for distributed load testing.&lt;/li&gt;
+ &lt;li&gt; Creation of Let's Encrypt SSL certificates for secure connectivity between interfaces.&lt;/li&gt;
+ &lt;li&gt; ElasticSearch and kibana integration for connectivity and monitoring between applications.&lt;/li&gt;
+ &lt;li&gt; Daily KanBan meeting execution.&lt;/li&gt;Creation of Epics.&lt;/li&gt;Code Review.&lt;/li&gt;
+
+ &lt;li&gt;Development REST API Java&lt;/li&gt;&lt;li&gt;Development REST API Python&lt;/li&gt;&lt;li&gt;DevelopmentREST API NodeJS&lt;/li&gt;
+
+ &lt;li&gt; Database Development.&lt;/li&gt;
+
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lblw4w" xml:space="preserve">
+    <value>&lt;ul&gt;
+    &lt;li&gt;Project OXXO(C#, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Project Ecommerce Walmart(C#, ASP.NET, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Projects Grupo Salinas(C#, Visual Basic, JavaScript, Java, SQL Server)&lt;/li&gt;
+    &lt;li&gt;Projects Segob(Java, MySql, JavaScript, PHP, ASP)&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="lbmeasa" xml:space="preserve">
+    <value>Message</value>
+  </data>
   <data name="lbnacimiento" xml:space="preserve">
     <value>DOB 1.12.1983</value>
+  </data>
+  <data name="lbw1" xml:space="preserve">
+    <value>Development Web ASP.NET</value>
   </data>
   <data name="MenuCertificaciones" xml:space="preserve">
     <value>Certs</value>

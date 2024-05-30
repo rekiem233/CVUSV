@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CVUSV", "BlazorLocalization\CVUSV.csproj", "{59EBAD34-B056-4424-830F-23DC694ADE0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CVUSV", "CVUSV\CVUSV.csproj", "{59EBAD34-B056-4424-830F-23DC694ADE0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

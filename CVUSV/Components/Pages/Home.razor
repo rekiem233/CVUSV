@@ -1,0 +1,49 @@
+﻿@page "/"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["MenuHome"]</PageTitle>
+ <div class="table-users">
+    <div class="header">@localizer["MenuHome"]</div>
+
+    <p style="text-align:justify;">@localizer["lbldesc1"]</p>
+     
+    <p style="text-align:justify;">@localizer["lbldesc2"]</p>
+</div>
+
+<div class="table-users">
+    <div class="header">@localizer["lblresume"]</div>
+
+    <table cellspacing="0">
+        <tr>
+            <th> @localizer["lblfoto"]</th>
+            <th> @localizer["lblnombre"]</th>
+            <th> @localizer["lblcorreo"]</th>
+            <th> @localizer["lbltelefono"]</th>
+            <th width="230"> @localizer["lblcomen"]</th>
+        </tr>
+
+        <tr>
+            <td>
+                
+                <img src="/img/174.png" alt="" />
+
+                <p>   @localizer["lbnacimiento"]</p>
+             
+
+                <p>  México City </p>
+            </td>
+            <td>Ulises Sandria Vázquez</td>
+
+            <td><a href="mailto:@localizer["lblemail"]">@localizer["lblemail"]</a></td>
+            <td><a href="tel:@localizer["lbldatacontact"]">@localizer["lbldatacontact"]</a></td>
+
+
+            <td>@localizer["lbliam"] @localizer["lbluni"] Guadalajara Mexico</td>
+        </tr>
+
+
+    </table>
+</div>
