@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbarchi" xml:space="preserve">
+    <value>Architecture</value>
+  </data>
   <data name="lbg5" xml:space="preserve">
     <value>Consultant, Client Assignment</value>
   </data>
@@ -227,6 +230,9 @@
   </data>
   <data name="lblsitedesc" xml:space="preserve">
     <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019</value>
+  </data>
+  <data name="lblsoa" xml:space="preserve">
+    <value>Server App</value>
   </data>
   <data name="lbltec" xml:space="preserve">
     <value>Technology</value>
@@ -367,6 +373,9 @@ Programming methods to manage Firebase storage. &lt;/li&gt;
   </data>
   <data name="lbmeasa" xml:space="preserve">
     <value>Message</value>
+  </data>
+  <data name="lbmet" xml:space="preserve">
+    <value>Methodologies and techniques</value>
   </data>
   <data name="lbnacimiento" xml:space="preserve">
     <value>DOB 1.12.1983</value>

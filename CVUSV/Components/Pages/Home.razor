@@ -3,7 +3,16 @@
 @using CVUSV.Locales;
 @using System.Globalization
 @inject IStringLocalizer<Resources> localizer
-
+@inject NavigationManager MyNavigationManager
+@code {
+    private string currentUrl;
+    string d ;
+    protected override void OnInitialized()
+    {
+        currentUrl = MyNavigationManager.Uri;
+        d = currentUrl.Split("//")[1].ToString().Replace("/", "");
+    }
+}
 <PageTitle>@localizer["MenuHome"]</PageTitle>
  <div class="table-users">
     <div class="header">@localizer["MenuHome"]</div>
@@ -15,32 +24,38 @@
 
 <div class="table-users">
     <div class="header">@localizer["lblresume"]</div>
-
+    
     <table cellspacing="0">
         <tr>
             <th> @localizer["lblfoto"]</th>
             <th> @localizer["lblnombre"]</th>
-            <th> @localizer["lblcorreo"]</th>
+            <th>  @localizer["lblcorreo"]</th>
             <th> @localizer["lbltelefono"]</th>
             <th width="230"> @localizer["lblcomen"]</th>
         </tr>
 
         <tr>
-            <td>
+            <td align="center"> 
                 
                 <img src="/img/174.png" alt="" />
 
-                <p>   @localizer["lbnacimiento"]</p>
-             
+               <span style="align-content:center;">
 
-                <p>  México City </p>
+                    <p>@localizer["lbnacimiento"]</p>
+                    <p>México City</p>
+               </span>
+           
             </td>
             <td>Ulises Sandria Vázquez</td>
 
-            <td><a href="mailto:@localizer["lblemail"]">@localizer["lblemail"]</a></td>
-            <td><a href="tel:@localizer["lbldatacontact"]">@localizer["lbldatacontact"]</a></td>
-
-
+            <td><a href="mailto:@string.Concat("contacto@",d)">@string.Concat("contacto@", d)</a></td>
+            <td><a href="tel:@localizer["lbldatacontact"]">@localizer["lbldatacontact"]
+             
+            </a>
+          
+        
+        
+        </td>
             <td>@localizer["lbliam"] @localizer["lbluni"] Guadalajara Mexico</td>
         </tr>
 

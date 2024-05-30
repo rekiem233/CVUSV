@@ -5,7 +5,7 @@
 @using System.Net.Mail
 @using System.ComponentModel.DataAnnotations
 @inject IStringLocalizer<Resources> localizer
-
+@inject NavigationManager MyNavigationManager
 
 <PageTitle>@localizer["MenuContacto"]</PageTitle>
 
@@ -13,12 +13,12 @@
 <h1>@localizer["MenuContacto"]</h1>
 
 <style>
-    
+
     input[type=text] {
         width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
-        border-radius: 4px;
+        border-radius: 2px;
         box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 16px;
@@ -30,7 +30,7 @@
         color: white;
         padding: 12px 20px;
         border: none;
-        border-radius: 4px;
+        border-radius: 2px;
         cursor: pointer;
     }
 
@@ -39,58 +39,241 @@
         }
 
     .container {
-        border-radius: 5px;
+        border-radius: 2px;
         background-color: #f2f2f2;
         padding: 20px;
     }
+
+
+
+
+    .container {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .brand {
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+        .brand span {
+            color: lightgray;
+        }
+
+    .wrapper {
+        box-shadow: 0 0 10px 0 rgba(57, 82, 163, 1.7);
+    }
+
+        .wrapper > * {
+            padding: 1em;
+        }
+
+    /* ------------------- */
+    /* COMPANY INFORMATION */
+    /* ------------------- */
+
+    .company-info {
+        background: transparent;
+       
+    }
+
+        .company-info h3,
+        .company-info ul {
+            text-align: center;
+            margin: 0 0 1rem 0;
+        }
+
+    /* ------- */
+    /* CONTACT */
+    /* ------- */
+
+    .contact {
+        background: white;
+        
+    }
+
+        /* ---- */
+        /* FORM */
+        /* ---- */
+
+        .contact form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+            .contact form label {
+                display: block;
+            }
+
+            .contact form p {
+                margin: 0;
+            }
+
+            .contact form .full {
+                grid-column: 1 / 3;
+            }
+
+            .contact form button,
+            .contact form input,
+            .contact form textarea {
+                width: 100%;
+                padding: 1em;
+                border: solid 1px #627EDC;
+                border-radius: 4px;
+            }
+
+            .contact form textarea {
+                resize: none;
+            }
+
+            .contact form button {
+                background: gray;
+                border: 0;
+                color: #e4e4e4;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+                .contact form button:hover,
+                .contact form button:focus {
+                    background: #3952a3;
+                    color: #ffffff;
+                    outline: 0;
+                    transition: background-color 2s ease-out;
+                }
+
+    /* ------------- */
+    /* MEDIA QUERIES */
+    /* ------------- */
+
+    @@media only screen and (min-width: 700px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+            .wrapper > * {
+                padding: 2em;
+            }
+
+        .company-info {
+            border-radius: 4px 0 0 4px;
+        }
+
+        .contact {
+            border-radius: 0 4px 4px 0;
+        }
+
+        .company-info h3,
+        .company-info ul,
+        .brand {
+            text-align: left;
+        }
+    }
+
 </style>
+
+
 
 
  
 
-<h7>@localizer["lblmes"]</h7>
-<br />
-<br />
- <div class="container">
-<EditForm Model="Model" OnValidSubmit=@ValidFormSubmitted OnInvalidSubmit=@InvalidFormSubmitted FormName="Starship8">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
 
-    <div>
+<div class="container">
 
-            <label for="fname">@localizer["lblnombre"]</label>  <InputText @bind-Value="Model!.Nombre" maxlength="20" />
+
+    <div class="wrapper">
+
+        <!-- COMPANY INFORMATION -->
+        <div class="company-info">
+
+            <ul>
+                <li><i class="fa fa-road"></i>Mexico CDMX</li>
+                <li><i class="fa fa-phone"></i> <a href="tel:+(52) 55-36476820">(52) 55-36476820</a></li>
+                <li><i class="fa fa-envelope"></i> 
+                    
+                    <a href="mailto:@string.Concat("contacto@", d)">@string.Concat("contacto@", d)</a>
+                    
+                
+                
+                </li>
+                <li>
+                    
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/525536476820" target="_blank">
+                        <img alt="Chat on WhatsApp" style="width:140px;height:30px;border-radius:0px;" src="/img/whatsappbuttongreensmall.png" />
+                    </a>
+                </li>
+            
+            </ul>
+        </div>
+        <!-- End .company-info -->
+        <!-- CONTACT FORM -->
+        <div class="contact">
+            <h3>@localizer["lblmes"]</h3>
+            <EditForm Model="Model" OnValidSubmit=@ValidFormSubmitted OnInvalidSubmit=@InvalidFormSubmitted FormName="Starship8">
+                <DataAnnotationsValidator />
+              
+
+                <div>
+
+                    <label for="fname">@localizer["lblnombre"]</label>
+                    
+                    <InputText @bind-Value="Model!.Nombre" maxlength="20" />
+
+                    <label>
+                        @localizer["lblcorreo"]/@localizer["lbltelefono"]
+                        <InputText typeof="email" @bind-Value="Model!.Correo" maxlength="30" />
+                    </label>
+
+                    <label>
+                        @localizer["lbmeasa"]
+                        <InputText @bind-Value="Model!.Mensaje" maxlength="500" />
+                    </label>
+                    <br />   <br /><br />
+                    <button type="submit">@localizer["lbltnsend"]</button>
+                    <br /><br />
+                </div>
+            
+                <label>
+                    <ValidationSummary />
+                    @Model.MensajeEnvio
+                </label>
+            </EditForm>
+             
          
-        <label>
-                @localizer["lblcorreo"]/ @localizer["lbltelefono"]
-            <InputText typeof="email" @bind-Value="Model!.Correo" placeholder="nombre" maxlength="30" />
-        </label>
-        
-        <label>
-                @localizer["lbmeasa"]
-                <InputText @bind-Value="Model!.Mensaje" maxlength="500"  />
-        </label>
-            <br />   <br /><br />
-            <button type="submit">@localizer["lbltnsend"]</button>
-            <br /><br />
-        </div> 
-        
-        <label>
-            @Model.MensajeEnvio
-        </label>
-</EditForm>
+        </div>
+       
 
-
+    </div>
+   
 </div>
-
+ 
 @code {
     private EditContext? editContext;
-
+    private string currentUrl;
+    string d;
 
     [SupplyParameterFromForm]
     public Starship? Model { get; set; }
 
-    protected override void OnInitialized() => Model ??= new();
-
+    protected override void OnInitialized()
+    {
+        Model ??= new();
+        currentUrl = MyNavigationManager.Uri;
+        d = currentUrl.Split("//")[1].ToString().Replace("/Contacto", "");
+    }
     private void Submit()
     {
         sendmessage();
@@ -176,7 +359,7 @@
             }
             catch (Exception ex)
             {
-                 
+
             }
         }
     }
