@@ -324,9 +324,10 @@
         MailMessage m = new MailMessage();
         SmtpClient sc = new SmtpClient();
         m.From = new MailAddress("contacto@usandria.site");
-        m.To.Add("rshake233@gmail.com");
+        m.To.Add("contacto@usandria.site");
+        m.To.Add("contacto@ulisessandria.com");
         m.Subject = "Alguien te busca desde tu cv";
-        sc.Host = "mail5002.site4now.net";
+        sc.Host = "mail.usandria.site";
         m.Body = string.Concat("Datos de Contacto ", Model.Mensaje, " ", Model.Correo, " ", Model.Nombre, " ");
         string str1 = "gmail.com";
         string str2 = "contacto@usandria.site";
