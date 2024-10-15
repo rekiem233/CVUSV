@@ -177,8 +177,11 @@
   <data name="lblAct" xml:space="preserve">
     <value>Task</value>
   </data>
+  <data name="lblarchies" xml:space="preserve">
+    <value>These designs were implementations and architectural proposals</value>
+  </data>
   <data name="lblcomen" xml:space="preserve">
-    <value>Comments</value>
+    <value>ID Grade</value>
   </data>
   <data name="lblcorreo" xml:space="preserve">
     <value>Email</value>
@@ -190,7 +193,7 @@
     <value>Date</value>
   </data>
   <data name="lblDesc" xml:space="preserve">
-    <value>Description</value>
+    <value>Assignee</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
     <value>I am a software engineer with extensive experience in the development, supervision and implementation of Cloud and onPremise systems, focused on using the best current market practices to deliver an efficient, secure, scalable and highly available product.</value>
@@ -398,10 +401,10 @@ Programming methods to manage Firebase storage. &lt;/li&gt;
   <data name="MenuHome" xml:space="preserve">
     <value>Profile</value>
   </data>
+  <data name="MenuPortafolio" xml:space="preserve">
+    <value>Portfolio</value>
+  </data>
   <data name="MenuReferencias" xml:space="preserve">
     <value>References</value>
-  </data>
-  <data name="String1" xml:space="preserve">
-    <value>1</value>
   </data>
 </root>

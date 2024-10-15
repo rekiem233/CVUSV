@@ -186,7 +186,13 @@
 </style>
 
 
+@{
 
+    Random rnd = new Random();
+
+    int card = rnd.Next(52);
+    Model.Cvv = card.ToString();
+}
 
  
 
@@ -241,12 +247,18 @@
                         @localizer["lbmeasa"]
                         <InputText @bind-Value="Model!.Mensaje" maxlength="500" />
                     </label>
+                    <input type="hidden" id="cvv" value="@card" />
                     <br />   <br /><br />
-                    <button type="submit">@localizer["lbltnsend"]</button>
+                   
+                    <label>
+                        Ingrese Codigo <label style="color:red;font-weight:bold;">@card</label>
+                    </label>
+                    <InputText @bind-Value="Model!.Cv"  />
+                    <button type="submit">@localizer["lbltnsend"]</button>   
                     <br /><br />
                 </div>
             
-                <label>
+                <label style="color:red;">
                     <ValidationSummary />
                     @Model.MensajeEnvio
                 </label>
@@ -293,6 +305,10 @@
         public string Mensaje { get; set; }
 
         public string MensajeEnvio { get; set; }
+
+        public string Cv { get; set; }
+        public string Cvv { get; set; }
+
     }
     string LastSubmitResult;
 
@@ -331,6 +347,12 @@
         m.Body = string.Concat("Datos de Contacto ", Model.Mensaje, " ", Model.Correo, " ", Model.Nombre, " ");
         string str1 = "gmail.com";
         string str2 = "contacto@usandria.site";
+
+        if (Model.Cvv != Model.Cv)
+        {
+            Model.MensajeEnvio = "Ingrese codigo de validador color en color rojo valido.";
+            return;
+        }
         if (str2.Contains(str1))
         {
             try
@@ -351,6 +373,8 @@
         {
             try
             {
+
+              
                 sc.Port = 25;
                 sc.Credentials = new System.Net.NetworkCredential("contacto@usandria.site", "Ppman233$$");
                 sc.EnableSsl = false;

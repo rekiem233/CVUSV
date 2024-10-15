@@ -29,34 +29,42 @@
         <tr>
             <th  align="center"> @localizer["lblfoto"]</th>
             <th> @localizer["lblnombre"]</th>
-            <th>  @localizer["lblcorreo"]</th>
+            <th>  @localizer["lblcorreo"].ToString().Replace("www","")</th>
             <th> @localizer["lbltelefono"]</th>
-            <th width="230"> @localizer["lblcomen"]</th>
+            <th> @localizer["lbltelefono"]</th>
         </tr>
 
         <tr>
             <td align="center"> 
                 
-                <img src="/img/174.png" alt="" />
+                <img src="/img/174.png"   alt="Ulises Sandria"  width="150" height="200"/>
 
-               <span style="align-content:center;">
+               <div style="align-content:center;">
 
-                    <p>@localizer["lbnacimiento"]</p>
+                @*     <p>@localizer["lbnacimiento"]</p>
                     <p>México City</p>
-               </span>
+                    @localizer["lbliam"]
+                    <p>Cédula  <a  target="_blank"  href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a></p> *@
+@*                     <img style="width:50%;height:50%;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
+ *@               </div>
            
             </td>
             <td>Ulises Sandria Vázquez</td>
 
             <td><a href="mailto:@string.Concat("contacto@",d)">@string.Concat("contacto@", d)</a></td>
             <td><a href="tel:@localizer["lbldatacontact"]">@localizer["lbldatacontact"]
-             
+                    
             </a>
           
         
         
         </td>
-            <td>@localizer["lbliam"]  </td>
+            <td>Cédula  <a target="_blank" href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a>
+                <br />
+                <img style="width:none;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
+
+            </td>
+
         </tr>
 
 

@@ -177,8 +177,11 @@
   <data name="lblAct" xml:space="preserve">
     <value>Actividades</value>
   </data>
+  <data name="lblarchies" xml:space="preserve">
+    <value>Estos diseños fueron implementaciones y propuestas de arquitectura</value>
+  </data>
   <data name="lblcomen" xml:space="preserve">
-    <value>Comentarios</value>
+    <value>Cédula</value>
   </data>
   <data name="lblcorreo" xml:space="preserve">
     <value>Correo</value>
@@ -190,7 +193,7 @@
     <value>Fecha</value>
   </data>
   <data name="lblDesc" xml:space="preserve">
-    <value>Descripcion</value>
+    <value>Asignación</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
     <value>Soy un ingeniero en software con amplia experiencia en el desarrollo, supervision e implementación de sistemas Cloud y onPremise, enfocado a utilizar las mejores prácticas vigentes del mercado, para entregar un producto eficiente, seguro, escalable y de alta disponibilidad.</value>
@@ -353,6 +356,9 @@
   </data>
   <data name="MenuHome" xml:space="preserve">
     <value>Perfil</value>
+  </data>
+  <data name="MenuPortafolio" xml:space="preserve">
+    <value>Portafolio</value>
   </data>
   <data name="MenuReferencias" xml:space="preserve">
     <value>Referencias</value>

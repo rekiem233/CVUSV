@@ -1,0 +1,323 @@
+﻿@page "/Arquitectura"
+@using Microsoft.Extensions.Localization
+@using CVUSV.Locales;
+@using System.Globalization
+@inject IStringLocalizer<Resources> localizer
+
+<PageTitle>@localizer["lbarchi"]</PageTitle>
+<style>
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 300px;
+    }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+            border-radius:unset;
+        }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+@code {
+    IStringLocalizer<Resources> _localizer;
+    string myMarkup = string.Empty;
+    string myMarkup2 = string.Empty;
+    string myMarkup3 = string.Empty;
+    string myMarkup4 = string.Empty;
+    string architext = string.Empty;
+    protected override void OnInitialized()
+    {
+        myMarkup = localizer["lblw1a"];
+        myMarkup2 = localizer["lblw1b"];
+        myMarkup3 = localizer["lblw3"];
+        myMarkup4 = localizer["lblw4w"];
+        architext = localizer["lblarchies"];
+
+        base.OnInitialized();
+    }
+}
+
+<div class="table-users">
+    <div class="header">
+        @localizer["lbarchi"] AWS
+
+    </div>
+    <label>@architext</label>
+    <br />
+  <hr />
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0001.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0001.jpg" />
+        </a>
+        <div class="desc">   @localizer["lbarchi"] - Serverless</div>
+    </div>
+
+
+
+ 
+ 
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0004.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0004.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Data Integration</div>
+    </div>
+
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0005.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0005.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - OXXO Payments</div>
+    </div>
+
+
+ 
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0007.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0007.jpg" />
+        </a>
+        <div class="desc">Terraform artifacts</div>
+    </div>
+
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0008.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0008.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - EventBridge</div>
+    </div>
+
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0009.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0009.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - EventBridge 2</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0010.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0010.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - EventBridge with step functions</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0011.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0011.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Event Bus Multi Target</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0012.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0012.jpg" />
+        </a>
+         <div class="desc">@localizer["lbarchi"] - EventBridge</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0013.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0013.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Complex DevOps Dedicate with Microservices</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0014.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0014.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Life Cicle Integration</div>
+    </div>
+
+
+   
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0016.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0016.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - EventBridege Pipes</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0017.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0017.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Middleware Integration</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0018.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0018.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Data Integration with topics</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0019.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0019.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - HTTP Circuit Braker Pattern</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0020.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0020.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Security Mechanisms</div>
+
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0021.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0021.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - DynamoDB with cache</div>
+    </div>
+     
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0006.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0006.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Simple BeanStalk</div>
+
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0007.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0007.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS CodeBuilder</div>
+    </div>
+
+
+    
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0009.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0009.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Amplify</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0010.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0010.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Amplify DataOffline and AppSync</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0011.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0011.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - High availability with AWS CloudFront</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0001.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0001.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS High Performance apps</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0002.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0002.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS App Runner Angular Native App</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0003.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0003.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Amplify Development</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0004.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0004.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Cognito Admin Users</div>
+    </div>
+
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/CKlass_page-0005.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/CKlass_page-0005.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - AWS Autoscaling</div>
+
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/arquitecturalatam2024_page-0015.jpg">
+            <img class="imgclass" src="/img/diagramasarquitectura/arquitecturalatam2024_page-0015.jpg" />
+        </a>
+        <div class="desc">@localizer["lbarchi"] - Data Flow</div>
+    </div>
+</div>
+
+<div class="table-users">
+    <div class="header">
+        @localizer["lbarchi"] Azure
+
+    </div>
+    <label>@architext</label>
+    <br />
+    <hr />
+
+    <div class="gallery">
+        <a target="_blank" href="/img/diagramasarquitectura/azurearchitecture.png">
+            <img class="imgclass" src="/img/diagramasarquitectura/azurearchitecture.png" />
+        </a>
+        <div class="desc">   @localizer["lbarchi"] - Serverless</div>
+    </div>
+
+
+
+     
+</div>
