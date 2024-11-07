@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="dataworkBestDay" xml:space="preserve">
-    <value>&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;Activities&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    <value>&lt;p style="padding-left: 40px;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;&lt;em&gt;Activities&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span&gt;Maintenance and migration of quote backend services and booking in the hotel industry, design, development and implementation of new services to provide asynchronous connectivity between B2C, B2B, B2B2C and affiliate lines, development of services for connectivity with channels managers through Open Travel.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Planning and design of logical architecture for the development of connecting micro services for the enrollment of hotel contracts to the different lines of business that consume them.&lt;/span&gt;&lt;/li&gt;
@@ -155,10 +155,10 @@
 &lt;li&gt;&lt;span&gt;Creation of Epics.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Code Review&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;Technologies&lt;/span&gt;&lt;/em&gt;&lt;span&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;&lt;em&gt;Technologies&lt;/em&gt;:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span&gt;ASP.NET Frameworks VB C#&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;ASP.NET Core C# 3 MVC&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ASP.NET Frameworks VB C #&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ASP.NET Core C # 3 MVC&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;MySQL&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;MSSQL&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Azure&lt;/span&gt;&lt;/li&gt;
@@ -167,21 +167,172 @@
 &lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;TypeScript&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Service Bus /Pub Sub&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Service Bus / Pub Sub&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;OTA Connectors&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Functions&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Elastic Search&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Graphana, Kibana&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Angular&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Angle&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;XML, JSon, gRPC, MsgPack&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Docker K8s&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Linux Personality Server&lt;/span&gt;&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;&lt;em&gt;&lt;span&gt;Logros&lt;/span&gt;&lt;/em&gt;&lt;span&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Linux Ubuntu Server&lt;/span&gt;&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;&lt;em&gt;Achievements&lt;/em&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span&gt;Reduction of consumption of application resources.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;Reduction of service consumption in the nines and reduction of costs in payment of SQL Server licenses.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Reduction of consumption of hardware resources in Web APIs.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Reduction of service consumption Azure OnClousd and reduction of costs in payment of SQL Server licenses.&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Production of API Connectors&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span&gt;Implementation of good practices.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="dataWorkEngen" xml:space="preserve">
+    <value>&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Activities&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Source code analysis and approvals with DevOps&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Operation support&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Web services provisioning&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Project leadership&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Design of proposals for improvement of operation&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Support to developers&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Monitoring of product development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Tracking Dev, QA, PRO and Staging deployments&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Java Springboot microservice development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Ticket automation on tour&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Vault implementation&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture design for Data Science and Business Intelligence&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Analysis of systems developed in aws services&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Terraform AWS Development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Python lambda development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;DDD serverless architecture design for BigData&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of AWS SQS and MSK&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;EvenBridge implementation&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of SonarQube BackEnd and FrontEnd&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;I use AWS and GCP services to bring information with AppSync and GCP BigQuery&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of data push integrations&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Automated testing&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Technologies&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Java 15 to 18&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;SonarQube&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Jira&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;NodeJs&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS SQS, Lambda, EventBridge, RDS, Dynamo, FarGate, EKS, MSK, RabbitMQ, CloudWatch&lt;/span&gt;&lt;br /&gt;&lt;span&gt;API Destinations, AppSync, ECS Task, APIGateWay, Cognito, Others&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS CodeCommit&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS Kinesis&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS Amplify&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS Stepfunctions&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS ECR&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Docker&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Achievements&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Improved code quality.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Transmission of knowledge to the development team.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Application automation in Jira.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Reduction of response times of microservices handling large volumes of data.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Customer satisfaction.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Technology documentation and business processes.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of security mechanisms, resource policies, authorizations, cogito users, labeling policy&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of WAF and TLSm Mutuo to exposed services.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Metrics&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Logs&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Observability&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;XRay implementation (AWS xRay)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="dataWorkKinich" xml:space="preserve">
+    <value>&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Activities:&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Architecture design for a mobile application on Android and iOS that can be used by users to have its geolocation in real time, as well as sending notifications to trusted contacts in case of general abuse towards women, which also integrates a directory and a chat with a knowledge base towards&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;CHATGPT (IA)&lt;/span&gt;&lt;/strong&gt;&lt;span&gt;&amp;nbsp;to serve as a psychologist and suicide prevention.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Design of physical and logical architecture on Azure and FireBase.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Real time database design.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Development of a multiplatform application with NET MAUI C # for sale to the private sector&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Publishing in the Apple and Android store&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Infrastructure provisioning for DevOps with Azure Cloud.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Kubernetes Cluster Supply.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Terraform script programming for service provisioning in the Azure Cloud (Service Bus, Azure Functions, SignalR, KeyVault, Storage, API Management Dockerization of services.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Web API programming.NET gRPC C # for handling user information. Programming of methods for managing Firebase storage.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Method programming for Firebase RealTime DataBase.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Programming of authentication methods in Firebase.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Programming methods for using push notifications.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;API connector programming for chatGPT use.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Lambda function programming.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Connector programming for Azure Service Bus.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Programming of functions for handling Messaging (Queues and Topics).&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Observability Implementation with Graphana, Jaegger and Istio.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;MVVM pattern implementation.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Use of GCP CLI for use of push notifications&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Technologies:&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Azure Services&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Firebase&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;C # 7 NET MAUI&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;SQL Server&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;gRPC&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Docker&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ServiceBus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Graphana&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ChatGPT&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Achievements:&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;User satisfaction.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Reduction of femicides in the country.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Improvement of the quality of life of women.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Integration of Artificial Intelligence for the first time in web microservices.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="dataWorkNexta" xml:space="preserve">
+    <value>&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Activities&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Participation in HEB and Cklass projects and internal clients.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Backend architecture design for HEB Monterrey commercial chain electronic commerce system.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Backend and frontend architecture design for Ticket Digital HEB.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Backend and frontend architecture design for Cklass&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Physical and logical architecture design for the development of the new online sales system of the HEB commercial chain, the operation was designed between&lt;/span&gt;&lt;br /&gt;&lt;span&gt;services to connect the sales and availability of products from the 38 stores that operate in the city of monterrey, improving the experience of&lt;/span&gt;&lt;br /&gt;&lt;span&gt;users when buying online from the application or web portal.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Physical and logical architecture design for him sent tickets digitally when paying in boxes, the user can receive a ticket on his cell phone&lt;/span&gt;&lt;br /&gt;&lt;span&gt;link to your purchase ticket if you wish.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Physical and logical architecture design for the development of the online sales system of the company cklass, a reengineering of the sales, web, mobile and administration channels was generated.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Coordination of equipment and assignment of tasks in Agile Kanban methodology.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Activities.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Business operation analysis for the development of base technological solutions, coordination of work teams, provision of environments of&lt;/span&gt;&lt;br /&gt;&lt;span&gt;programming, migration of legacy services to new technologies and innovation implementing new software design patterns for the high&lt;/span&gt;&lt;br /&gt;&lt;span&gt;availability.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of DevOps environment for Cklass project.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Base code programming for Android mobile application.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;BackEnd base code programming Java microservices and gRPC.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;FrontEnd Angular base code programming.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Terraform base code programming for IaC.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;SQL database design and standardization.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Amplify implementation for development.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Base code programming.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Configuration of Windows servers for application deployment.NET C #&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of SQS and PIXES Models (inventory photos for synchronization with Tibco)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Technologies&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;span&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Android Studio Kotlin&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Java 11 GRPC Spring Boot REST API&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;SQL Server&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;GitLab / DevOps Pipelines with ArgoCD DataDog&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Sybase&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Azure (Functions, AD, ServiceBus)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;AWS (Cognito, MSK, EventBridge, API Gateway.EC2, ECS, EKS, AppSync, S3, Lambda, ECR, RabbitMQ)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;NodeJS&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Typescript&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Services Bus / Pub Sub&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Step Functions&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Elastic Search&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Graphana, Kibana&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;React&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Unix, Linux, Windows&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Docker and Kubernetes&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Achievements&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;:&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;High availability of HEB online products.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;High performance of backend services.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Ecological impact when receiving a purchase ticket via digital.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;High performance and IOS / Android reactive applications, Web.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of good practices and innovation.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Integration of high performance microservices with gRPC.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Customer satisfaction.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation DevOps project Cklass.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</value>
   </data>
   <data name="lbarchi" xml:space="preserve">
@@ -241,6 +392,9 @@
   <data name="lbl9" xml:space="preserve">
     <value>Tools</value>
   </data>
+  <data name="lblaboutme" xml:space="preserve">
+    <value>About me</value>
+  </data>
   <data name="lblAct" xml:space="preserve">
     <value>Task</value>
   </data>
@@ -275,10 +429,10 @@
     <value>Assignee</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>&lt;p&gt;I am a&lt;strong&gt; software engineer&lt;/strong&gt; with extensive experience in the development, supervision and implementation of computer systems, I am a person committed to my activities with a high sense of responsibility, performing high quality work and with excellent professionalism and who is constantly learning new technologies.&lt;/p&gt;
-&lt;p&gt;I have extensive experience designing and programming robust cloud architectures oriented to microservices, &lt;strong&gt;Serverless&lt;/strong&gt; with efficient methodologies, as well as hybrid infrastructures or completely in the cloud of &lt;strong&gt;AWS, Azure, GCP, and Digital Ocean&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;I am an expert &lt;strong&gt;full-stack programmer&lt;/strong&gt; in the languages &lt;strong&gt;​​C#, Java, JavaScript, Python, PHP and Visual Basic&lt;/strong&gt; and also in &lt;strong&gt;SQL Server databases&lt;/strong&gt;, &lt;strong&gt;Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; as &lt;em&gt;&lt;strong&gt;BackEnd&lt;/strong&gt; &lt;/em&gt;and in &lt;strong&gt;Angular, NodeJS, Blazor , HTML Jquery Bootstrap, React&lt;/strong&gt; and &lt;strong&gt;WebAssembly&lt;/strong&gt; as &lt;em&gt;&lt;strong&gt;FrontEnd&lt;/strong&gt; &lt;/em&gt;and implemented countless computing systems throughout my professional experience such a&lt;strong&gt;s Desktop, Web, Services and native mobile applications&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;I have experience in design, provisioning and configuration in &lt;strong&gt;DevOps&lt;/strong&gt;, &lt;strong&gt;GitOps&lt;/strong&gt; work environments and can serve as a Site Engineer (&lt;strong&gt;SRE&lt;/strong&gt;) to ensure that systems are reliable, scalable and resilient, maintaining high levels of availability and performance.&lt;/p&gt;</value>
+    <value>&lt;p&gt;I am a software engineer with extensive experience in the development, supervision and implementation of computer systems, I am a person committed to my activities with a high sense of responsibility, performing high quality work and with excellent professionalism and who is constantly learning new technologies.&lt;/p&gt;
+&lt;p&gt;I have extensive experience designing and programming robust cloud architectures oriented to microservices, Serverless with efficient methodologies, as well as hybrid or completely cloud infrastructures of &lt;strong&gt;AWS, Azure, GCP, Digital Ocean and Cloudflare.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am an expert full-stack programmer in the languages &lt;strong&gt;​​C#, Java, JavaScript, Python, PHP and Visual Basic &lt;/strong&gt;and also in databases &lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; as BackEnd and in &lt;strong&gt;Angular, NodeJS, Blazor , HTML Jquery Bootstrap, React&lt;/strong&gt; and &lt;strong&gt;WebAssembly&lt;/strong&gt; as FrontEnd and implemented countless computer systems throughout my professional experience of type Desktop, Web, Services and native mobile applications, and also an expertise in Provisioning and networks with &lt;strong&gt;Windows Server&lt;/strong&gt; since the version 2002 to 2022 and on &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOs&lt;/strong&gt; &lt;strong&gt;Linux&lt;/strong&gt; servers.&lt;/p&gt;
+&lt;p&gt;I have experience in design, provisioning and configuration in continuous integration and &lt;strong&gt;DevOps, GitOps&lt;/strong&gt; work environments and can serve as a &lt;strong&gt;Site Engineer (SRE)&lt;/strong&gt; to ensure that systems are reliable, scalable and resilient, maintaining high levels of availability and performance.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>I am a person committed to my activities and with a high sense of responsibility, offering high quality work and excellent professionalism.</value>
@@ -334,6 +488,12 @@
   <data name="lblproject" xml:space="preserve">
     <value>Project</value>
   </data>
+  <data name="lblpublish" xml:space="preserve">
+    <value>Publish on</value>
+  </data>
+  <data name="lblpublishAPP" xml:space="preserve">
+    <value>Releases</value>
+  </data>
   <data name="lblrama" xml:space="preserve">
     <value>Branch</value>
   </data>
@@ -341,7 +501,7 @@
     <value>Resume</value>
   </data>
   <data name="lblsitedesc" xml:space="preserve">
-    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019 protected with CloudFlare</value>
+    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019 protected with CloudFlare and set secure headers</value>
   </data>
   <data name="lblsoa" xml:space="preserve">
     <value>Server App</value>
@@ -484,6 +644,6 @@ Programming methods to manage Firebase storage. &lt;/li&gt;
     <value>Portfolio</value>
   </data>
   <data name="MenuReferencias" xml:space="preserve">
-    <value>References</value>
+    <value>Portfolio</value>
   </data>
 </root>

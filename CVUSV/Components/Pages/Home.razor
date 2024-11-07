@@ -8,6 +8,7 @@
 
 <link href="/table.css" rel="stylesheet" />
 
+
 @code {
     private string currentUrl;
     string d;
@@ -22,14 +23,14 @@
 }
 <PageTitle>@localizer["MenuHome"]</PageTitle>
 <div class="table-users">
-    <div class="header">@localizer["MenuHome"]</div>
+    <div class="header">@localizer["lblaboutme"]</div>
 
     <p style="text-align:justify;">    @((MarkupString)myMarkup)</p>
  
 </div>
 
 <div class="table-users">
-    <div class="header">@localizer["lblresume"]</div>
+ @*    <div class="header">@localizer["lblresume"]</div> *@
 
     <table cellspacing="0">
         <tr>
@@ -78,7 +79,7 @@
 
             </td>
             <td>
-                Cédula  <a target="_blank" href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a>
+                4472593
                 <br />
                 @*                 <img style="width:none;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
  *@

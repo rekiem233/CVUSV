@@ -3,6 +3,9 @@
 @using Microsoft.Extensions.Localization;
 @using CVUSV.Locales;
 @inject IStringLocalizer<Resources> localizer
+@inject IJSRuntime JSRuntime
+
+ 
 <style>
 
 
@@ -30,9 +33,50 @@
 
     
     }
+ 
+    select {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        min-width: min(100%,240px);
+        padding: 12px 24px 12px 12px;
+        line-height: 24px;
+        border: solid 1px #999;
+        border-radius: 6px;
+        /*   background-image: url(https://www.svgrepo.com/show/362528/caret-down-bold.svg); */
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='180 -360 600 1200'%3E%3Cpath d='M1015 10q-10-10-23-10t-23 10L512 492 55 10Q45 0 32 0T9 10Q0 20 0 34t9 24l480 506q10 10 23 10t23-10l480-506q9-10 9-24t-9-24z'%20fill%3D%27slategray%27/%3E%3C/svg%3E");
+        background-size: 18px;
+        background-repeat: no-repeat;
+        background-position: calc(100% - 12px) center;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: slategray;
+        outline: none;
+    }
+        /* For IE10 */
+        select::-ms-expand {
+            display: none;
+        }
+
+    optgroup {
+        font-weight: 400;
+        font-style: italic;
+        color: steelblue;
+        background-color: aliceblue;
+    }
+
+    option {
+        color: slategray;
+        background-color: #fff;
+        text-indent: 0;
+    }
+
+
 </style>
 <div>
-    <select @bind="Culture">
+    <select  style="width:200px;" @bind="Culture" class="custom-select">
         <option value="es-MX">Español</option>
         <option value="en-US">Ingles</option>
     </select>
@@ -41,11 +85,15 @@
 
 @code {
     string link = "";
-    protected override void OnInitialized()
+
+    
+    protected  async override void OnInitialized()
     {
 
         Culture = CultureInfo.CurrentCulture;
  
+
+
         if (Culture.ToString() == "es-MX")
         {
             link = "es";
@@ -75,3 +123,4 @@
     }
     }
 }
+

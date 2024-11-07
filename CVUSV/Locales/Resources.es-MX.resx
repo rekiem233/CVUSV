@@ -178,8 +178,8 @@
 &lt;li&gt;Linux Ubuntu Server&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;&lt;em&gt;Logros&lt;/em&gt;&lt;/span&gt;:&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;Reducci&amp;oacute;n de consume de recursos de aplicaciones.&lt;/li&gt;
-&lt;li&gt;Reducci&amp;oacute;n de consumo de servicios en las nueves y reducci&amp;oacute;n de costos en pago de licencias SQL Server.&lt;/li&gt;
+&lt;li&gt;Optimización de consumo de recursos de hardware  en WEB APIs.&lt;/li&gt;
+&lt;li&gt;Reducci&amp;oacute;n de consumo de hardware en la nube de Azure y reducci&amp;oacute;n de costos en pago de licencias SQL Server.&lt;/li&gt;
 &lt;li&gt;Puesta en producci&amp;oacute;n de Conectores API&lt;/li&gt;
 &lt;li&gt;Implementaci&amp;oacute;n de buenas pr&amp;aacute;cticas.&lt;/li&gt;
 &lt;/ul&gt;</value>
@@ -305,7 +305,6 @@
 &lt;li&gt;Programaci&amp;oacute;n de c&amp;oacute;digo base.&lt;/li&gt;
 &lt;li&gt;Configuraci&amp;oacute;n de servidores Windows para despliegue de aplicaciones .NET C#&lt;/li&gt;
 &lt;li&gt;Implementaci&amp;oacute;n de SQS y Modelos de PIXES(fotos de inventario para sincronizaci&amp;oacute;n con Tibco)&lt;/li&gt;
-&lt;li&gt;&amp;nbsp;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;Tecnolog&amp;iacute;as&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -398,6 +397,9 @@
   <data name="lbl9" xml:space="preserve">
     <value>Herramientas</value>
   </data>
+  <data name="lblaboutme" xml:space="preserve">
+    <value>Acerca de mi</value>
+  </data>
   <data name="lblAct" xml:space="preserve">
     <value>Actividades</value>
   </data>
@@ -432,10 +434,10 @@
     <value>Asignación</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>&lt;p style="text-align: justify;"&gt;Soy un &lt;strong&gt;ingeniero&lt;/strong&gt; en software con amplia experiencia en el desarrollo, supervisi&amp;oacute;n e implementaci&amp;oacute;n de sistemas de c&amp;oacute;mputo, soy una persona comprometida con mis actividades con un alto sentido de responsabilidad desempe&amp;ntilde;ando un trabajo de gran calidad y con excelente profesionalismo y que esta en constante aprendizaje de nuevas tecnolog&amp;iacute;as.&lt;/p&gt;
-&lt;p style="text-align: justify;"&gt;Tengo amplia experiencia dise&amp;ntilde;ando y programando arquitecturas robustas en la nube orientada a &lt;strong&gt;microservicios&lt;/strong&gt;, &lt;strong&gt;Serverless&lt;/strong&gt; con Metodolog&amp;iacute;as eficientes, as&amp;iacute; como como &lt;strong&gt;infraestructuras&lt;/strong&gt; &lt;strong&gt;hibridas&lt;/strong&gt; o totalmente en la &lt;strong&gt;nube&lt;/strong&gt; de &lt;strong&gt;AWS, Azure, GCP, y Digital Ocean y Cloudflare.&lt;/strong&gt;&lt;/p&gt;
-&lt;p style="text-align: justify;"&gt;Soy experto programador de pila completa en los lenguajes C#, Java, JavaScript, Python, PHP y Visual Basic y tambi&amp;eacute;n en base de datos &lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; como &lt;strong&gt;&lt;em&gt;BackEnd&lt;/em&gt; &lt;/strong&gt;y en Angular, NodeJS, Blazor, HTML Jquery Bootstrap, React y WebAssembly como &lt;strong&gt;&lt;em&gt;FrontEnd&lt;/em&gt; &lt;/strong&gt;e implementado infinidad de sistemas de computo a lo largo de mi experiencia profesional de tipo &lt;strong&gt;Escritorio, Web, Servicios y aplicaciones m&amp;oacute;viles nativas.&lt;/strong&gt;&lt;/p&gt;
-&lt;p style="text-align: justify;"&gt;Cuento con experiencia en dise&amp;ntilde;o, aprovisionamiento configuraci&amp;oacute;n en ambientes de trabajo &lt;strong&gt;DevOps&lt;/strong&gt;, &lt;strong&gt;GitOps&lt;/strong&gt; y puedo fungir como Ingeniero de sitio &lt;strong&gt;(SRE)&lt;/strong&gt; para garantizar que los sistemas sean confiables, escalables y resistentes, manteniendo altos niveles de disponibilidad y rendimiento.&lt;/p&gt;</value>
+    <value>&lt;p style="text-align: justify;"&gt;Soy un&amp;nbsp;ingeniero&amp;nbsp;en software con amplia experiencia en el desarrollo, supervisi&amp;oacute;n e implementaci&amp;oacute;n de sistemas de c&amp;oacute;mputo, soy una persona comprometida con mis actividades con un alto sentido de responsabilidad desempe&amp;ntilde;ando un trabajo de gran calidad y con excelente profesionalismo y que esta en constante aprendizaje de nuevas tecnolog&amp;iacute;as.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Tengo amplia experiencia dise&amp;ntilde;ando y programando arquitecturas robustas en la nube orientada a&amp;nbsp;&lt;strong&gt;microservicios&lt;/strong&gt;,&amp;nbsp;&lt;strong&gt;Serverless&lt;/strong&gt;&amp;nbsp;con Metodolog&amp;iacute;as eficientes, as&amp;iacute; como como&amp;nbsp;&lt;strong&gt;infraestructuras&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;hibridas&lt;/strong&gt;&amp;nbsp;o totalmente en la&amp;nbsp;&lt;strong&gt;nube&lt;/strong&gt;&amp;nbsp;de&amp;nbsp;&lt;strong&gt;AWS, Azure, GCP, Digital Ocean y Cloudflare.&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Soy experto programador de pila completa en los lenguajes &lt;strong&gt;C#, Java, JavaScript, Python, PHP y Visual Basic&lt;/strong&gt; y tambi&amp;eacute;n en base de datos&amp;nbsp;&lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt;&amp;nbsp;como&amp;nbsp;&lt;strong&gt;&lt;em&gt;BackEnd&lt;/em&gt;&amp;nbsp;&lt;/strong&gt;y en &lt;strong&gt;Angular, NodeJS, Blazor, HTML Jquery Bootstrap, React&lt;/strong&gt; y &lt;strong&gt;WebAssembly&lt;/strong&gt; como&amp;nbsp;&lt;strong&gt;&lt;em&gt;FrontEnd&lt;/em&gt;&amp;nbsp;&lt;/strong&gt;e implementado infinidad de sistemas de computo a lo largo de mi experiencia profesional de tipo&amp;nbsp;&lt;strong&gt;Escritorio, Web, Servicios y aplicaciones m&amp;oacute;viles nativas,&amp;nbsp;&lt;/strong&gt;y tambien un expertise en Aprovisionamiento y redes con Windows Server desde la version 2002 a la 2022 y en servidores Linux Ubuntu y CentOs.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Cuento con experiencia en dise&amp;ntilde;o, aprovisionamiento configuraci&amp;oacute;n en ambientes de trabajo de integracion continua y &lt;strong&gt;DevOps&lt;/strong&gt;,&amp;nbsp;&lt;strong&gt;GitOps&lt;/strong&gt;&amp;nbsp;y puedo fungir como Ingeniero de sitio&amp;nbsp;&lt;strong&gt;(SRE)&lt;/strong&gt;&amp;nbsp;para garantizar que los sistemas sean confiables, escalables y resistentes, manteniendo altos niveles de disponibilidad y rendimiento.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>Soy una persona comprometida con mis actividades y con un alto sentido de responsabilidad desempeñando un trabajo de gran calidad y con excelente profesionalismo.</value>
@@ -492,6 +494,12 @@
   <data name="lblproject" xml:space="preserve">
     <value>Proyecto</value>
   </data>
+  <data name="lblpublish" xml:space="preserve">
+    <value>Publicación en</value>
+  </data>
+  <data name="lblpublishAPP" xml:space="preserve">
+    <value>Liberación</value>
+  </data>
   <data name="lblrama" xml:space="preserve">
     <value>Rama</value>
   </data>
@@ -499,7 +507,7 @@
     <value>Resumen</value>
   </data>
   <data name="lblsitedesc" xml:space="preserve">
-    <value>Sitio desarrollado con Blazor .NET 8, EF Core, SQL Server 2019 y protegido con CloudFlare</value>
+    <value>Sitio desarrollado con Blazor .NET 8, EF Core, SQL Server 2019 y protegido con CloudFlare con cabezeros seguros incluidos</value>
   </data>
   <data name="lblsoa" xml:space="preserve">
     <value>Servidor de aplicaciones</value>
@@ -607,6 +615,6 @@
     <value>Portafolio</value>
   </data>
   <data name="MenuReferencias" xml:space="preserve">
-    <value>Referencias</value>
+    <value>Portafolio</value>
   </data>
 </root>
