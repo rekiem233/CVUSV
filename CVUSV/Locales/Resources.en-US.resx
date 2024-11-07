@@ -117,6 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="dataworkBestDay" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;Activities&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Maintenance and migration of quote backend services and booking in the hotel industry, design, development and implementation of new services to provide asynchronous connectivity between B2C, B2B, B2B2C and affiliate lines, development of services for connectivity with channels managers through Open Travel.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Planning and design of logical architecture for the development of connecting micro services for the enrollment of hotel contracts to the different lines of business that consume them.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Specific improvements to services to improve their response times and availability, as well as open trace and monitoring.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Creation and assignment of user stories to work team at KanBan DevOps&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Migration of HBSI, RateTigger and Gateway interfaces to NET Core.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for Web API migration of NET Core Quote Hotels.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for API of Tarifaria Hotels (Python)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for OTA Push Disney Connector.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for Connector OTA Push SynXis, Saber.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for OTA Push DerbySoft Connector.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Design for OTA Push HBSI Connector.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Development of Booking connectors and cancellation of reservations.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Development of backend functionality and database for push connectors.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Development of resistant architectures for HTTP connectors with Retryment and timeout policies.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Development for Bussines Intelligence and Revenue Quote Service, strategies.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Improvement for BestDay interface.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Performance improvement to third-party PULL quote interfaces (Restel, Tourico, Get a Room, IDISHO, GTA)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Architecture Improvement for Valkirya interface.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Improvement and maintenance of product Apis.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Maintenance to availability viewers.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Production Installation of Proxys NgInx, Docker, k8s.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Pipeline development.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Provision of development environments and QA.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Integration of instrumentation metrics&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Dashboards design.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;SQL script development, functions, stored procedures, triggers.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Development of MySQL MSSQL migration synchronizers.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Migration of services from Azure to Google Cloud Platform.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Testware design and execution for distributed load tests.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Creation of SSL Let&amp;acute;s Encript certificates for secure connectivity between interfaces.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ElasticSearch and kibana integration for connectivity and monitoring between applications.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Daily KanBan board execution.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Creation of Epics.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Code Review&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;span&gt;Technologies&lt;/span&gt;&lt;/em&gt;&lt;span&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;ASP.NET Frameworks VB C#&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;ASP.NET Core C# 3 MVC&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;MySQL&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;MSSQL&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Azure&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;GCP&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;NodeJS&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Python&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;TypeScript&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;JavaScript&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Service Bus /Pub Sub&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;OTA Connectors&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Functions&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Elastic Search&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Graphana, Kibana&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Angular&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;XML, JSon, gRPC, MsgPack&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Docker K8s&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Linux Personality Server&lt;/span&gt;&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;&lt;em&gt;&lt;span&gt;Logros&lt;/span&gt;&lt;/em&gt;&lt;span&gt;:&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Reduction of consumption of application resources.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Reduction of service consumption in the nines and reduction of costs in payment of SQL Server licenses.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Production of API Connectors&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Implementation of good practices.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
   <data name="lbarchi" xml:space="preserve">
     <value>Architecture</value>
   </data>
@@ -180,6 +247,18 @@
   <data name="lblarchies" xml:space="preserve">
     <value>These designs were implementations and architectural proposals</value>
   </data>
+  <data name="lblbestdaywork" xml:space="preserve">
+    <value>&lt;p&gt;Backend architecture design for the HEB Monterrey retail chain's e-commerce system.&lt;br /&gt;Backend and frontend architecture design for Ticket Digital HEB.&lt;br /&gt;Backend and frontend architecture design for Cklass&lt;/p&gt;
+&lt;p&gt;Physical and logical architecture design for the development of the new online sales system for the HEB retail chain. The operation between services was designed to connect sales and product availability from the 38 stores that operate in the city of Monterrey, improving the user experience when purchasing online from the application or web portal.&lt;/p&gt;
+&lt;p&gt;Physical and logical architecture design for sending tickets digitally when paying at checkouts. Users can receive a link to their purchase ticket on their cell phone if they wish.&lt;/p&gt;
+&lt;p&gt;Physical and logical architecture design for the development of the online sales system for the company cklass. A reengineering of the sales channels, web, mobile and administration was generated.&lt;br /&gt;Team coordination and task assignment in Agile Kanban methodology.&lt;br /&gt;Activities.&lt;/p&gt;
+&lt;p&gt;Business operation analysis for the development of basic technological solutions, coordination of work teams, provision of programming environments, migration of legacy services to new technologies and innovation by implementing new software design patterns for high availability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;:&lt;br /&gt;▪ Android Studio Kotlin&lt;br /&gt;▪ Java 11 GRPC Spring Boot REST API&lt;br /&gt;▪ SQL Server&lt;br /&gt;GitLab/Pipelines DevOps with ArgoCD DataDog&lt;br /&gt;▪ Sybase&lt;br /&gt;▪ Azure (Functions, AD, ServiceBus)&lt;br /&gt;▪ AWS (Gateway.EC2 API, ECS, EKS, AppSync, S3, Lambda, ECR, RabbitMQ)&lt;br /&gt;▪ NodeJS&lt;br /&gt;▪ Python&lt;br /&gt;▪ Typescript&lt;br /&gt;▪ JavaScript&lt;br /&gt;▪ Services Bus /Pub Sub&lt;br /&gt;▪ Functions&lt;br /&gt;▪ Elastic Search&lt;br /&gt;▪ Graphana, Kibana&lt;br /&gt;▪ React&lt;br /&gt;▪ Unix, Linux, Windows&lt;br /&gt;▪ Docker and Kubernetes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Achievements&lt;/strong&gt;:&lt;br /&gt;&amp;bull; High availability of HEB online products.&lt;br /&gt;&amp;bull; High performance of backend services.&lt;br /&gt;&amp;bull; Ecological impact when receiving purchase tickets digitally.&lt;br /&gt;&amp;bull; High performance and responsive IOS/Android, Web applications&lt;br /&gt;&amp;bull; Implementation of best practices and innovation.&lt;/p&gt;</value>
+  </data>
+  <data name="lblbtdown" xml:space="preserve">
+    <value>Download Resume</value>
+  </data>
   <data name="lblcomen" xml:space="preserve">
     <value>ID Grade</value>
   </data>
@@ -196,7 +275,10 @@
     <value>Assignee</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>I am a software engineer with extensive experience in the development, supervision and implementation of Cloud and onPremise systems, focused on using the best current market practices to deliver an efficient, secure, scalable and highly available product.</value>
+    <value>&lt;p&gt;I am a&lt;strong&gt; software engineer&lt;/strong&gt; with extensive experience in the development, supervision and implementation of computer systems, I am a person committed to my activities with a high sense of responsibility, performing high quality work and with excellent professionalism and who is constantly learning new technologies.&lt;/p&gt;
+&lt;p&gt;I have extensive experience designing and programming robust cloud architectures oriented to microservices, &lt;strong&gt;Serverless&lt;/strong&gt; with efficient methodologies, as well as hybrid infrastructures or completely in the cloud of &lt;strong&gt;AWS, Azure, GCP, and Digital Ocean&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I am an expert &lt;strong&gt;full-stack programmer&lt;/strong&gt; in the languages &lt;strong&gt;​​C#, Java, JavaScript, Python, PHP and Visual Basic&lt;/strong&gt; and also in &lt;strong&gt;SQL Server databases&lt;/strong&gt;, &lt;strong&gt;Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; as &lt;em&gt;&lt;strong&gt;BackEnd&lt;/strong&gt; &lt;/em&gt;and in &lt;strong&gt;Angular, NodeJS, Blazor , HTML Jquery Bootstrap, React&lt;/strong&gt; and &lt;strong&gt;WebAssembly&lt;/strong&gt; as &lt;em&gt;&lt;strong&gt;FrontEnd&lt;/strong&gt; &lt;/em&gt;and implemented countless computing systems throughout my professional experience such a&lt;strong&gt;s Desktop, Web, Services and native mobile applications&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I have experience in design, provisioning and configuration in &lt;strong&gt;DevOps&lt;/strong&gt;, &lt;strong&gt;GitOps&lt;/strong&gt; work environments and can serve as a Site Engineer (&lt;strong&gt;SRE&lt;/strong&gt;) to ensure that systems are reliable, scalable and resilient, maintaining high levels of availability and performance.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>I am a person committed to my activities and with a high sense of responsibility, offering high quality work and excellent professionalism.</value>
@@ -210,8 +292,35 @@
   <data name="lbliam" xml:space="preserve">
     <value>Graduate Enginer</value>
   </data>
+  <data name="lblinfra" xml:space="preserve">
+    <value>Infrastructure</value>
+  </data>
   <data name="lbljobs" xml:space="preserve">
     <value>Development and Architecture Leader</value>
+  </data>
+  <data name="lbllastwork" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;Source code analysis and approvals with DevOps&lt;/li&gt;
+&lt;li&gt;Operation support&lt;/li&gt;
+&lt;li&gt;Web services provisioning&lt;/li&gt;
+&lt;li&gt;Project leadership&lt;/li&gt;
+&lt;li&gt;Proposal design for operation improvement&lt;/li&gt;
+&lt;li&gt;Developer support&lt;/li&gt;
+&lt;li&gt;Product development monitoring&lt;/li&gt;
+&lt;li&gt;Dev, QA, PRO and Staging deployment monitoring&lt;/li&gt;
+&lt;li&gt;Java Springboot microservices development&lt;/li&gt;
+&lt;li&gt;Jira ticket automation&lt;/li&gt;
+&lt;li&gt;Vault implementation&lt;/li&gt;
+&lt;li&gt;Architecture design for data science and business intelligence&lt;/li&gt;
+&lt;li&gt;Analysis of systems developed in AWS services&lt;/li&gt;
+&lt;li&gt;Terraform AWS development&lt;/li&gt;
+&lt;li&gt;Lambda Python development&lt;/li&gt;
+&lt;li&gt;Serverless DDD architecture design&lt;/li&gt;
+&lt;li&gt;Use of SQS&lt;/li&gt;
+&lt;li&gt;Use of AWS services&lt;/li&gt;
+&lt;li&gt;Implementation of integrations.&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;/ul&gt;</value>
   </data>
   <data name="lblmes" xml:space="preserve">
     <value>Leave us a message</value>
@@ -232,7 +341,7 @@
     <value>Resume</value>
   </data>
   <data name="lblsitedesc" xml:space="preserve">
-    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019</value>
+    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019 protected with CloudFlare</value>
   </data>
   <data name="lblsoa" xml:space="preserve">
     <value>Server App</value>
@@ -289,7 +398,7 @@
 
  &lt;li&gt; Development of a multiplatform application with NET MAUI C# for sale to the private sector&lt;/li&gt; 
 
- &lt;li&gt; Publication in the Apple and Android store&lt;/li&gt; 
+ &lt;li&gt; Release on  Apple and Android store&lt;/li&gt; 
 
  &lt;li&gt; Infrastructure provisioning for DevOps with Azure Cloud. &lt;/li&gt; 
 
@@ -321,50 +430,17 @@ Programming methods to manage Firebase storage. &lt;/li&gt;
 &lt;/ul&gt;</value>
   </data>
   <data name="lblw2" xml:space="preserve">
-    <value>Architecture, Mobile and Web Development</value>
+    <value>Architecture, Mobile and Web Development ,TechLead</value>
   </data>
   <data name="lblw2w" xml:space="preserve">
-    <value>Architecture, Development, DevOps</value>
+    <value>Architecture, Development, DevOps,TechLead</value>
   </data>
   <data name="lblw3" xml:space="preserve">
-    <value>&lt;ul&gt; 
-&lt;li&gt; Migration of HBSI, RateTigger and Gateway interfaces to NET Core.&lt;/li&gt;
- &lt;li&gt; Architecture design for NET Core Hotel Quote Web API migration.&lt;/li&gt;
-
- &lt;li&gt; Architecture Design for Tarifaria Hotels API (Python) &lt;/li&gt;
-
- &lt;li&gt; Architecture Design for Disney Push OTA Connector.&lt;/li&gt;
- &lt;li&gt; Architecture Design for SynXis Push OTA Connector, Sabre.&lt;/li&gt;
- &lt;li&gt; Architecture Design for DerbySoft Push OTA Connector.&lt;/li&gt;
- &lt;li&gt; Architecture Design for OTA Push HBSI Connector.&lt;/li&gt;
- &lt;li&gt; Development of Booking connectors and cancellation of reservations.&lt;/li&gt;
- &lt;li&gt; Development of backend functionality and database for push connectors.&lt;/li&gt;
- &lt;li&gt; Development of resilient architectures for HTTP connectors with retry and timeout policies.&lt;/li&gt;
-
- &lt;li&gt; Architecture Development for Intelligent Bussines and Revenue Quotation Service, strategies.&lt;/li&gt;
- &lt;li&gt; Architecture improvement for BestDay interface.&lt;/li&gt;
- &lt;li&gt; Performance improvement to third-party quote PULL interfaces (Restel, Tourico, Get a Room, IDISHO, GTA) &lt;/li&gt;
-
- &lt;li&gt; Architecture improvement for Valkirya interface.&lt;/li&gt;
- &lt;li&gt; Improvement and maintenance of product APIs.&lt;/li&gt;
- &lt;li&gt; Maintenance of availability displays.&lt;/li&gt;
- &lt;li&gt; Put into production Installation of NgInx, Docker, k8s Proxies.&lt;/li&gt;Pipeline development.&lt;/li&gt;
- &lt;li&gt; Provisioning of development and QA environments.&lt;/li&gt;Integration of instrumentation metrics &lt;/li&gt;
-
- &lt;li&gt; Dashboard design.&lt;/li&gt;Development of SQL scripts, functions, stored procedures, triggers.&lt;/li&gt;
- &lt;li&gt; Development of MySQL MSSQL migration synchronizers.&lt;/li&gt;
- &lt;li&gt; Migration of Azure services to Google Cloud Platform.&lt;/li&gt;
-
- &lt;li&gt; Design and execution of Testware for distributed load testing.&lt;/li&gt;
- &lt;li&gt; Creation of Let's Encrypt SSL certificates for secure connectivity between interfaces.&lt;/li&gt;
- &lt;li&gt; ElasticSearch and kibana integration for connectivity and monitoring between applications.&lt;/li&gt;
- &lt;li&gt; Daily KanBan meeting execution.&lt;/li&gt;Creation of Epics.&lt;/li&gt;Code Review.&lt;/li&gt;
-
- &lt;li&gt;Development REST API Java&lt;/li&gt;&lt;li&gt;Development REST API Python&lt;/li&gt;&lt;li&gt;DevelopmentREST API NodeJS&lt;/li&gt;
-
- &lt;li&gt; Database Development.&lt;/li&gt;
-
-&lt;/ul&gt;</value>
+    <value>&lt;p&gt;Maintenance and migration of backend services for hotel quotes and bookings, design, development and implementation of new services to&lt;br /&gt;provide asynchronous connectivity between B2C, B2B, B2B2C and affiliate business lines, development of services for connectivity with channel managers&lt;br /&gt;through Open Travel)&lt;br /&gt;Planning and design of logical architecture for the development of micro services connectors for the enrollment of hotel contracts to the different business lines that consume them.&lt;/p&gt;
+&lt;p&gt;Specific improvements to services to improve their response times and availability, as well as opentrace and monitoring.&lt;/p&gt;
+&lt;p&gt;Creation and assignment of user stories to the work team in KanBan DevOps&lt;/p&gt;
+&lt;p&gt;&amp;bull; Migration of HBSI, RateTigger and Gateway interfaces to NET Core.&lt;br /&gt;&amp;bull; Architecture design for migration of the Hotel Quote Web API to NET Core.&lt;br /&gt;&amp;bull; Architecture design for Hotel Rate API (Python)&lt;br /&gt;&amp;bull; Architecture design for Disney Push OTA Connector.&lt;br /&gt;&amp;bull; Architecture design for SynXis, Sabre OTA Push Connector.&lt;br /&gt;&amp;bull; Architecture design for DerbySoft OTA Push Connector.&lt;br /&gt;&amp;bull; Architecture design for HBSI OTA Push Connector.&lt;br /&gt;&amp;bull; Development of Booking and reservation cancellation connectors.&lt;br /&gt;&amp;bull; Development of backend functionality and database for push connectors.&lt;br /&gt;&amp;bull; Development of resilient architectures for HTTP connectors with retry and timeout policies.&lt;br /&gt;&amp;bull; Development of Architecture for Intelligent Business and Revenue quote service, strategies.&lt;br /&gt;&amp;bull; Architecture improvement for BestDay interface.&lt;br /&gt;&amp;bull; Performance improvement for third-party PULL quote interfaces (Restel, Tourico, Get a Room, IDISHO, GTA)&lt;br /&gt;&amp;bull; Architecture improvement for Valkirya interface.&lt;br /&gt;&amp;bull; Improvement and maintenance of product APIs.&lt;br /&gt;&amp;bull; Maintenance of availability viewers.&lt;br /&gt;&amp;bull; Production launch Installation of NgInx, Docker, k8s Proxies.&lt;br /&gt;&amp;bull; Development of pipelines.&lt;br /&gt;&amp;bull; Provisioning of development and QA environments.&lt;br /&gt;&amp;bull; Instrumentation metrics integration&lt;br /&gt;&amp;bull; Dashboard design.&lt;br /&gt;&amp;bull; Development of SQL scripts, functions, stored procedures, triggers.&lt;br /&gt;&amp;bull; Development of MySQL MSSQL migration synchronizers.&lt;br /&gt;&amp;bull; Migration of Azure services to Google Cloud Platform.&lt;br /&gt;&amp;bull; Design and execution of Testware for distributed load testing.&lt;br /&gt;&amp;bull; Creation of Let's Encript SSL certificates for secure connectivity between interfaces.&lt;br /&gt;&amp;bull; Integration of ElasticSearch and kibana for connectivity and monitoring between applications.&lt;br /&gt;&amp;bull; Execution of Daily KanBan board.&lt;br /&gt;&amp;bull; Creation of Epics.&lt;br /&gt;&amp;bull; Code Review&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;:&lt;br /&gt;▪ ASP.NET Frameworks VB C#&lt;br /&gt;▪ ASP.NET Core C# 3 MVC&lt;br /&gt;▪ MySQL&lt;br /&gt;▪ MSSQL&lt;br /&gt;▪ Azure&lt;br /&gt;▪ GCP&lt;br /&gt;▪ NodeJS&lt;br /&gt;▪ Python&lt;br /&gt;▪ TypeScript&lt;br /&gt;▪ JavaScript&lt;br /&gt;▪ Service Bus /Pub Sub&lt;br /&gt;▪ OTA Connectors&lt;br /&gt;▪ Functions&lt;br /&gt;▪ Elastic Search&lt;br /&gt;▪ Graphana, Kibana&lt;br /&gt;▪ Angular&lt;br /&gt;▪ XML, JSon, gRPC, MsgPack&lt;br /&gt;▪ Docker K8s&lt;br /&gt;▪ Linux&lt;br /&gt;&lt;strong&gt;Achievements&lt;/strong&gt;:&lt;br /&gt;&amp;bull; Reduction in application resource consumption.&lt;br /&gt;&amp;bull; Reduction in service consumption on the cloud and reduction in costs for SQL Server license payments.&lt;br /&gt;&amp;bull; Putting API Connectors into production&lt;br /&gt;&amp;bull; Implementation of best practices.&lt;/p&gt;</value>
   </data>
   <data name="lblw4w" xml:space="preserve">
     <value>&lt;ul&gt;
@@ -373,6 +449,9 @@ Programming methods to manage Firebase storage. &lt;/li&gt;
     &lt;li&gt;Projects Grupo Salinas(C#, Visual Basic, JavaScript, Java, SQL Server)&lt;/li&gt;
     &lt;li&gt;Projects Segob(Java, MySql, JavaScript, PHP, ASP)&lt;/li&gt;
 &lt;/ul&gt;</value>
+  </data>
+  <data name="lblyears" xml:space="preserve">
+    <value>years old</value>
   </data>
   <data name="lbmeasa" xml:space="preserve">
     <value>Message</value>

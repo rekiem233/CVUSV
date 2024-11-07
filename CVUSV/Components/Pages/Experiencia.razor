@@ -8,18 +8,20 @@
 
 @code {
     IStringLocalizer<Resources> _localizer;
-    string myMarkup = string.Empty;
-    string myMarkup2 = string.Empty;
-    string myMarkup3 = string.Empty;
-    string myMarkup4 = string.Empty;
+    string bestdaywork = string.Empty;
+    string nextawork = string.Empty;
+    string kinichwork = string.Empty;
+    string engenwork = string.Empty;
+    string mylastwork = string.Empty;
+    string mybestday = string.Empty;
     protected override void OnInitialized()
     {
-        myMarkup = localizer["lblw1a"];
-        myMarkup2 = localizer["lblw1b"];
-        myMarkup3 = localizer["lblw3"];
-        myMarkup4 = localizer["lblw4w"];
-
-
+        bestdaywork = localizer["dataworkBestDay"];
+        nextawork = localizer["dataWorkNexta"];
+        kinichwork = localizer["dataWorkKinich"];
+        engenwork = localizer["dataWorkEngen"];
+        // mylastwork = localizer["lbllastwork"];
+        // mybestday = localizer["lblbestdaywork"];
         base.OnInitialized();
     }
 }
@@ -35,10 +37,12 @@
         </tr>
         <tr>
             <td>Engen</td>
-            <td>10-23 / 10-24</td>
-            <td>Desarrollador, Líder Técnico, Arquitectura</td>
+            <td>1-24 / 10-24</td>
+            <td>@localizer["lblw2"]</td>
             <td>
-                <ul>
+                @((MarkupString)engenwork)
+              
+                @*  <ul>
                     <li>Análisis de código fuente y aprobaciones con DevOps            </li>
                     <li>Soporte a la operación                                         </li>
                     <li>Aprovisionamiento de servicios web                             </li>
@@ -60,7 +64,7 @@
                     <li>Implementación de integraciones.</li>
                     <li>Pruebas</li>
 
-                </ul>
+                </ul> *@
             </td>
         </tr>
 
@@ -80,29 +84,34 @@
             <td>Kinich Software</td>
             <td>10-23 / 1-24</td>
             <td>@localizer["lblw2"]</td>
-            <td> @((MarkupString)myMarkup2)</td>
+            <td>
+                
+                @((MarkupString)kinichwork)
+
+
+            </td>
         </tr>
 
         <tr>
             <td>Nexta</td>
             <td>11-21 / 10-23</td>
             <td>@localizer["lblw2w"]</td>
-            <td> @((MarkupString)myMarkup3)</td>
+            <td> @((MarkupString)nextawork)</td>
         </tr>
         <tr>
             <td>BestDay</td>
             <td>11-19 / 10-21</td>
             <td>@localizer["lblw2w"]</td>
-            <td> @((MarkupString)myMarkup3)</td>
+            <td> @((MarkupString)bestdaywork)</td>
         </tr>
 
-        <tr>
+        @* <tr>
 
             <td>@localizer["lbloter"]</td>
             <td>2007 / 2018</td>
             <td>@localizer["lbg5"]</td>
             <td> @((MarkupString)myMarkup4)</td>
-        </tr>
+        </tr> *@
     </table>
 </div>
 

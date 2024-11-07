@@ -1,4 +1,5 @@
 ﻿@page "/Habilidades"
+@using Microsoft.AspNetCore.Components.Web
 @using Microsoft.Extensions.Localization
 @using CVUSV.Locales;
 @using System.Globalization
@@ -15,19 +16,18 @@
         <tbody>
                <tr>
 
-                   <th>@localizer["lblrama"]</th
+                   <th>@localizer["lblrama"]</th>
                          <th>@localizer["lbltec"]</th>
                    </tr>
             <tr>
                 <td>@localizer["lbl1"]</td>
                 <td>
                     <ul>
+                        <li>C# NET 1 a 9</li>
+                        <li>Java 1 a 18</li>
                         <li>JavaScript</li>
-                        <li>Java</li>
-                        <li>C#</li>
                         <li>Python</li>
-                        <li>Visual Basic</li>
-                        <li>ASP.NET</li>
+                        <li>VB 5,6 .NET</li>
                         <li>TypeScript</li>
                         <li>PHP</li>
                     </ul>
@@ -38,7 +38,7 @@
                 <td>@localizer["lbl2"]</td>
                 <td>
                     <ul>
-                        <li>NET MAUI</li>
+                        <li>.NET MAUI</li>
                         <li>Android Studio</li>
                         <li>Flutter</li>
                         <li>Xamarin</li>
@@ -74,11 +74,14 @@
                 <td>@localizer["lblsoa"]</td>
                 <td>
                     <ul>
-                        <li>Apache</li>
+                        <li>Apache Server</li>
+                                <li>Apache TomCat</li>
+                                <li>WildFly, JBoss</li>
                         <li>IIS</li>
-                        <li>Nginx</li>
+                        <li>Nginx Reverse Proxy</li>
                         <li>Kestrel</li>
-                          <li>GlassFish</li>
+                        <li>GlassFish</li>
+                        <li>Oracle WebLogic</li>
                     </ul>
                 </td>
             </tr>
@@ -88,18 +91,18 @@
                 <td>
                     <ul>
                         
-                        <li>Dependency Injection e IoC&nbsp;</li>
-                        <li>MVC&nbsp;</li>
-                        <li>MVVM&nbsp;</li>
-                        <li>Circuit Braker&nbsp;</li>
-                        <li>Fan in Fan Out (Durable Functions)&nbsp;</li>
-                        <li>MVP&nbsp;</li>
-                        <li>Factory&nbsp;</li>
-                        <li>Iterator&nbsp;</li>
-                        <li>Proxy&nbsp;</li>
-                        <li>Builder&nbsp;</li>
-                        <li>Adapter&nbsp;</li>
-                        <li>Chain of Responsibility&nbsp;</li>
+                        <li>Dependency Injection e IoC </li>
+                        <li>MVC </li>
+                        <li>MVVM </li>
+                        <li>Circuit Braker </li>
+                        <li>Fan in Fan Out (Durable Functions) </li>
+                        <li>MVP </li>
+                        <li>Factory </li>
+                        <li>Iterator </li>
+                        <li>Proxy </li>
+                        <li>Builder </li>
+                        <li>Adapter </li>
+                        <li>Chain of Responsibility </li>
                         <li>Bridge</li>
                     </ul>
                 </td>
@@ -109,27 +112,40 @@
               
                 <td>
                     <ul>
-                        <li>SOLID&nbsp;</li>
+                        <li>SOLID </li>
                         <li>YAGNI</li>
-                        <li>&nbsp;DRY</li>
-                        <li>&nbsp;KISS</li>
-                        <li>&nbsp;Scrum Agile</li>
-                        <li>CMMI 3</li>
+                        <li>DRY</li>
+                        <li>KISS</li>
+                       
                     </ul>
                 </td>
-            </tr>
-            <tr>
+            </tr>  <tr>
+
+                <td>Models & methodologies</td>
+                <td>
+                    <ul>
+                         <li>Scrum Agile</li>
+                        <li>CMMI 3</li>
+                        <li>Six Sigma</li>
+                        
+                    </ul>
+                </td>
+
+                </tr>
                 
+            <tr>
+              
                 <td>@localizer["lbl5"]</td>
                 <td>
                     <ul>
-                        <li>Entity Framework&nbsp;</li>
+                        <li>Entity Framework </li>
                         <li>Dapper Bot</li>
-                        <li>NET. Framework&nbsp;</li>
-                        <li>NET Blazor&nbsp;</li>
-                        <li>ExpressJS&nbsp;</li>
+                        <li>NET Framework </li>
+                        <li>NET Blazor </li>
+                        <li>ExpressJS </li>
                         <li>Django</li>
-                        <li>Springboot</li>
+                        <li>SpringBoot</li>
+                           <li>Apache Maven</li>
                     </ul>
                 </td>
             </tr>
@@ -138,11 +154,11 @@
                 <td>@localizer["lbl6"]</td>
                 <td>
                     <ul>
-                        <li>Bit Bucket&nbsp;</li>
-                        <li>GITHub&nbsp;</li>
-                        <li>GitLab&nbsp;</li>
-                        <li>Team Services&nbsp;</li>
-                        <li>SVN Tortoise&nbsp;</li>
+                        <li>Bit Bucket </li>
+                        <li>GITHub </li>
+                        <li>GitLab </li>
+                        <li>Team Services </li>
+                        <li>SVN Tortoise </li>
                         <li>Microsoft Source Safe</li>
                         <li>GitHub</li>
                     </ul>
@@ -157,8 +173,9 @@
                     <ul>
                         <li>Jenkins</li>
                         <li>CodeBuild</li>
-                        <li>ArgoCD</li>
+                        <li>ArgoCD GitOps</li>
                         <li>MAMBU</li>
+                        <li>Azure DevOps</li>
                     </ul>
                 </td>
             </tr>
@@ -166,13 +183,13 @@
                 <td>@localizer["lbl8"]</td>
                 <td>
                     <ul>
-                        <li>jQuery&nbsp;</li>
-                        <li>Razor&nbsp;</li>
-                        <li>Blazor (Web Assembly)&nbsp;</li>
-                        <li>Angular&nbsp;</li>
-                        <li>Bootstrap&nbsp;</li>
-                        <li>ReactJs&nbsp;</li>
-                        <li>NextJs&nbsp;</li>
+                        <li>jQuery </li>
+                        <li>Razor </li>
+                        <li>Blazor (Web Assembly) </li>
+                        <li>Angular </li>
+                        <li>Bootstrap </li>
+                        <li>ReactJs </li>
+                        <li>NextJs </li>
                     </ul>
                 </td>
             </tr>
@@ -180,20 +197,20 @@
                 <td>@localizer["lbl9"]</td>
                 <td>
                     <ul>
-                        <li>Jira</li>
-                        <li>Terraform</li>
-                          <li>Istio</li>
-                            <li>Graphana</li>
-                              <li>Kibana</li>
-                        <li>Docker&nbsp;</li>
-                        <li>CMS (Umbraco, WordPress)</li>
-                        <li>Elastic Search&nbsp;</li>
-                        <li>Crystal Reports/</li>
-                        <li>Reporting Services&nbsp;</li>
-                        <li>Integration Services&nbsp;</li>
-                        <li>Enterprise architect</li>
-                        <li>Post Man&nbsp;</li>
-                        <li>PowerShell</li>
+                    <li>Jira</li>
+                    <li>Terraform</li>
+                    <li>Istio</li>
+                    <li>Graphana</li>
+                    <li>Kibana</li>
+                    <li>Docker </li>
+                    <li>CMS (Umbraco, WordPress)</li>
+                    <li>Elastic Search </li>
+                    <li>Crystal Reports</li>
+                    <li>Reporting Services </li>
+                    <li>Integration Services </li>
+                    <li>Enterprise architect</li>
+                    <li>Post Man </li>
+                    <li>PowerShell</li>
                     </ul>
                 </td>
             </tr>
@@ -202,7 +219,7 @@
             
                 <td>
                     <ul>
-                        <li>SQL Server&nbsp;</li>
+                        <li>SQL Server </li>
                         <li>SyBase </li>
                         <li>MySql </li>
                         <li>MongoDB </li>
@@ -216,11 +233,11 @@
                 <td>@localizer["lbl11"]</td>
                 <td>
                     <ul>
-                        <li>Windows 11&nbsp;</li>
-                        <li>Windows IoT&nbsp;</li>
-                        <li>Solaris 11,&nbsp;&nbsp;</li>
-                        <li>Windows Server Core&nbsp;</li>
-                        <li>Linux Ubuntu, CentOs</li>
+                        <li>Windows 11 </li>
+                        <li>Windows IoT </li>
+                        <li>Solaris 11,  </li>
+                        <li>Windows Server Core </li>
+                        <li>Linux Ubuntu Server, CentOs</li>
                         <li>OS X</li>
                     </ul>
                 </td>
@@ -229,13 +246,14 @@
                 <td>@localizer["lbl12"]</td>
                 <td>
                     <ul>
-                        <li>JMeter&nbsp;</li>
-                        <li>Accunetix&nbsp;</li>
-                        <li>MSTest&nbsp;</li>
-                        <li>Xunit&nbsp;</li>
+                        <li>JMeter Low Test;</li>
+                        <li>Accunetix </li>
+                        <li>MSTest </li>
+                        <li>Xunit </li>
                         <li>SmokeTest</li>
                         <li>AppCenter</li>
-                        <li>Sonar</li>
+                        <li>SonarQube</li>
+                        
                     </ul>
                 </td>
             </tr>
@@ -246,6 +264,7 @@
                         <li>RabbitMQ</li>
                         <li>Kafka Zookeper</li>
                         <li>PubSub</li>
+                        <li>Azure Service Bus</li>
                     </ul>
                 </td>
             </tr>
@@ -253,9 +272,9 @@
                 <td>Reportes</td>
                 <td>
                     <ul>
-                        <li>PowerBI&nbsp;</li>
-                        <li>Cristal Reports&nbsp;</li>
-                        <li>Extracción de datos con Informática &nbsp;y ETL´s</li>
+                        <li>PowerBI </li>
+                        <li>Cristal Reports </li>
+                        <li>Extracción de datos con Informática  y ETL´s</li>
                     </ul>
                 </td>
             </tr>
@@ -269,6 +288,8 @@
                         <li>Cognito</li>
                         <li>Active Directory</li>
                         <li>CloudFlare</li>
+                        <li>HashiCorp Vault</li>
+                            <li>OWASP BestPractices</li>
                     </ul>
                 </td>
             </tr>
@@ -333,7 +354,20 @@
                     </ul>
                 </td>
             </tr>
-
+              <tr>
+                <td>Digital Ocean</td>
+                <td>
+                    <ul>
+                        <li>VPS Services</li>
+                                                <li>Container Registry</li>
+                                                <li>IoT</li>
+                                                <li>Security</li>
+                                                <li>Web Hosting</li>  
+                                                <li>BlockChain</li>
+                                                <li>Web Hosting</li>
+                    </ul>
+                </td>
+            </tr>
                     <tr>
                 <td>Firebase</td>
                 <td>
@@ -358,7 +392,6 @@
                         <li>Chat GPT</li>
                         <li>Flow GPT</li>
                         <li>Tensor Flow</li>
-                       
                         <li>Video AI (Vertex AI)</li>
                     </ul>
                 </td>
@@ -370,12 +403,11 @@
                 <td>
                     <ul>
                         <li>Cluster NiceHash</li>
-                             
-                                 <li>FileCoin</li>
-                                 <li>CoinBase</li>
+                        <li>FileCoin</li>
+                        <li>CoinBase</li>
                         <li>Ethereum</li>
-                          <li>BitCoin</li>
-                           <li>PolkaDot</li>
+                        <li>BitCoin</li>
+                        <li>PolkaDot</li>
                     </ul>
                 </td>
             </tr>

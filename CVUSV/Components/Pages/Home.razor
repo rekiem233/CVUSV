@@ -4,69 +4,102 @@
 @using System.Globalization
 @inject IStringLocalizer<Resources> localizer
 @inject NavigationManager MyNavigationManager
+ 
+
+<link href="/table.css" rel="stylesheet" />
+
 @code {
     private string currentUrl;
-    string d ;
+    string d;
+    string myMarkup = string.Empty;
     protected override void OnInitialized()
     {
         currentUrl = MyNavigationManager.Uri;
         d = currentUrl.Split("//")[1].ToString().Replace("/", "");
+
+        myMarkup = localizer["lbldesc1"];
     }
 }
 <PageTitle>@localizer["MenuHome"]</PageTitle>
- <div class="table-users">
+<div class="table-users">
     <div class="header">@localizer["MenuHome"]</div>
 
-    <p style="text-align:justify;">@localizer["lbldesc1"]</p>
-     
-    <p style="text-align:justify;">@localizer["lbldesc2"]</p>
+    <p style="text-align:justify;">    @((MarkupString)myMarkup)</p>
+ 
 </div>
 
 <div class="table-users">
     <div class="header">@localizer["lblresume"]</div>
-    
+
     <table cellspacing="0">
         <tr>
-            <th  align="center"> @localizer["lblfoto"]</th>
+            <th align="center"> @localizer["lblfoto"]</th>
             <th> @localizer["lblnombre"]</th>
-            <th>  @localizer["lblcorreo"].ToString().Replace("www","")</th>
+            <th>  @localizer["lblcorreo"].ToString().Replace("www", "")</th>
             <th> @localizer["lbltelefono"]</th>
-            <th> @localizer["lbltelefono"]</th>
+            <th>ID</th>
         </tr>
 
         <tr>
-            <td align="center"> 
+            <td align="center">
+
+                <img src="/img/174.png" alt="Ulises Sandria" width="80" height="100" />
                 
-                <img src="/img/174.png"   alt="Ulises Sandria"  width="150" height="200"/>
+                @{
 
-               <div style="align-content:center;">
+                    int by = 1983;
+                    int cy = System.DateTime.Now.Year;
+                    int r = cy - by;
 
-                @*     <p>@localizer["lbnacimiento"]</p>
+                }
+
+                <div style="align-content:center;">
+                    <p>
+                        @localizer["lbnacimiento"] @r @localizer["lblyears"]
+                    </p>  <p>México City</p>
+                    @*     <p>@localizer["lbnacimiento"]</p>
                     <p>México City</p>
                     @localizer["lbliam"]
                     <p>Cédula  <a  target="_blank"  href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a></p> *@
-@*                     <img style="width:50%;height:50%;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
+                    @*                     <img style="width:50%;height:50%;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
  *@               </div>
-           
+
             </td>
-            <td>Ulises Sandria Vázquez</td>
+            <td>Ulises Sandria Vázquez    </td>
 
             <td><a href="mailto:@string.Concat("contacto@",d)">@string.Concat("contacto@", d)</a></td>
-            <td><a href="tel:@localizer["lbldatacontact"]">@localizer["lbldatacontact"]
-                    
-            </a>
-          
-        
-        
-        </td>
-            <td>Cédula  <a target="_blank" href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a>
-                <br />
-                <img style="width:none;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
+            <td>
+                <a href="tel:@localizer["lbldatacontact"]">
+                    @localizer["lbldatacontact"]
 
+                </a>
+
+
+
+            </td>
+            <td>
+                Cédula  <a target="_blank" href="https://cedulaprofesional.sep.gob.mx/cedula/indexAvanzada.action?idCedula=14472593&idProfesionista=14544777&token=67752FE27FC006445DA50BDAD0FBFEB477353618">14472593</a>
+                <br />
+                @*                 <img style="width:none;border-radius:unset;" src="/img/diagramasarquitectura/cedulaprofesional.jpg" />
+ *@
             </td>
 
         </tr>
 
 
     </table>
+  
 </div>
+<br />
+<br />
+<br />
+<br />
+     <hr/>
+
+               <small>@localizer["lblsitedesc"]</small>
+               <hr />
+<br />
+
+<br />
+      <img src="/img/referesheaders.jpg"   style="height:30%;width:30%;"/>
+

@@ -1,40 +1,77 @@
 ﻿@inject NavigationManager Navigation
 @using System.Globalization
+@using Microsoft.Extensions.Localization;
+@using CVUSV.Locales;
+@inject IStringLocalizer<Resources> localizer
+<style>
 
- 
 
- 
+    .cssbuton {
+        background: lightblue;
+    }
 
+    /*
+       Si el dispositivo es táctil cambiamos
+       el color de fondo y el texto del botón.
+    button:active {
+      background: crimson;
+      color: #fff;
+    }
+
+    /*
+      También podemos mantener el mismo estilo
+      cuándo se usa el efecto hover.
+     */
+    @@media (any-hover: hover) {
+        .cssbuton:hover {
+        background: crimson;
+        color: #fff;
+    }
+
+    
+    }
+</style>
 <div>
-    <select   @bind="Culture">
+    <select @bind="Culture">
         <option value="es-MX">Español</option>
         <option value="en-US">Ingles</option>
     </select>
 </div>
+<a target="_blank" class="cssbuton" href="/@link/CVUlisesSandria.pdf">@localizer["lblbtdown"]</a>
 
-@code
-{
+@code {
+    string link = "";
     protected override void OnInitialized()
     {
+
         Culture = CultureInfo.CurrentCulture;
+ 
+        if (Culture.ToString() == "es-MX")
+        {
+            link = "es";
+        }
+        else
+        {
+            link = "en";
+        }
     }
 
     private CultureInfo Culture
     {
-        get
+    get
+    {
+        return CultureInfo.CurrentCulture;
+    }
+    set
+    {
+        if (CultureInfo.CurrentCulture != value)
         {
-            return CultureInfo.CurrentCulture;
-        }
-        set
-        {
-            if (CultureInfo.CurrentCulture != value)
-            {
-                var uri = new Uri(Navigation.Uri).GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
-                var cultureEscaped = Uri.EscapeDataString(value.Name);
-                var uriEscaped = Uri.EscapeDataString(uri);
+            var uri = new Uri(Navigation.Uri).GetComponents(UriComponents.PathAndQuery, UriFormat.Unescaped);
+            var cultureEscaped = Uri.EscapeDataString(value.Name);
+            var uriEscaped = Uri.EscapeDataString(uri);
 
-                Navigation.NavigateTo($"Culture/Set?culture={cultureEscaped}&redirectUri={uriEscaped}", forceLoad: true);
-            }
+            Navigation.NavigateTo($"Culture/Set?culture={cultureEscaped}&redirectUri={uriEscaped}", forceLoad: true);
         }
+    }
     }
 }

@@ -15,186 +15,177 @@
 <style>
 
     input[type=text] {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 2px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
     }
 
     input[type=submit] {
-        background-color: #04AA6D;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 2px;
-        cursor: pointer;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
     }
 
-        input[type=submit]:hover {
-            background-color: #45a049;
-        }
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
 
     .container {
-        border-radius: 2px;
-        background-color: #f2f2f2;
-        padding: 20px;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    padding: 20px;
     }
 
 
 
 
     .container {
-        max-width: 1170px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1em;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
     }
 
     ul {
-        list-style: none;
-        padding: 0;
+    list-style: none;
+    padding: 0;
     }
 
     .brand {
-        text-align: center;
-        font-weight: 300;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     }
 
-        .brand span {
-            color: lightgray;
-        }
+    .brand span {
+    color: lightgray;
+    }
 
     .wrapper {
-        box-shadow: 0 0 10px 0 rgba(57, 82, 163, 1.7);
+    box-shadow: 0 0 10px 0 rgba(57, 82, 163, 1.7);
     }
 
-        .wrapper > * {
-            padding: 1em;
-        }
+    .wrapper > * {
+    padding: 1em;
+    }
 
     /* ------------------- */
     /* COMPANY INFORMATION */
     /* ------------------- */
 
     .company-info {
-        background: transparent;
-       
+    background: transparent;
+
     }
 
-        .company-info h3,
-        .company-info ul {
-            text-align: center;
-            margin: 0 0 1rem 0;
-        }
+    .company-info h3,
+    .company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    }
 
     /* ------- */
     /* CONTACT */
     /* ------- */
 
     .contact {
-        background: white;
-        
+    background: white;
+
     }
 
-        /* ---- */
-        /* FORM */
-        /* ---- */
+    /* ---- */
+    /* FORM */
+    /* ---- */
 
-        .contact form {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
-        }
+    .contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    }
 
-            .contact form label {
-                display: block;
-            }
+    .contact form label {
+    display: block;
+    }
 
-            .contact form p {
-                margin: 0;
-            }
+    .contact form p {
+    margin: 0;
+    }
 
-            .contact form .full {
-                grid-column: 1 / 3;
-            }
+    .contact form .full {
+    grid-column: 1 / 3;
+    }
 
-            .contact form button,
-            .contact form input,
-            .contact form textarea {
-                width: 100%;
-                padding: 1em;
-                border: solid 1px #627EDC;
-                border-radius: 4px;
-            }
+    .contact form button,
+    .contact form input,
+    .contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: solid 1px #627EDC;
+    border-radius: 4px;
+    }
 
-            .contact form textarea {
-                resize: none;
-            }
+    .contact form textarea {
+    resize: none;
+    }
 
-            .contact form button {
-                background: gray;
-                border: 0;
-                color: #e4e4e4;
-                text-transform: uppercase;
-                font-size: 14px;
-                font-weight: bold;
-            }
+    .contact form button {
+    background: gray;
+    border: 0;
+    color: #e4e4e4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    }
 
-                .contact form button:hover,
-                .contact form button:focus {
-                    background: #3952a3;
-                    color: #ffffff;
-                    outline: 0;
-                    transition: background-color 2s ease-out;
-                }
+    .contact form button:hover,
+    .contact form button:focus {
+    background: #3952a3;
+    color: #ffffff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+    }
 
     /* ------------- */
     /* MEDIA QUERIES */
     /* ------------- */
 
     @@media only screen and (min-width: 700px) {
-        .wrapper {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-        }
+    .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    }
 
-            .wrapper > * {
-                padding: 2em;
-            }
+    .wrapper > * {
+    padding: 2em;
+    }
 
-        .company-info {
-            border-radius: 4px 0 0 4px;
-        }
+    .company-info {
+    border-radius: 4px 0 0 4px;
+    }
 
-        .contact {
-            border-radius: 0 4px 4px 0;
-        }
+    .contact {
+    border-radius: 0 4px 4px 0;
+    }
 
-        .company-info h3,
-        .company-info ul,
-        .brand {
-            text-align: left;
-        }
+    .company-info h3,
+    .company-info ul,
+    .brand {
+    text-align: left;
+    }
     }
 
 </style>
 
 
-@{
-
-    Random rnd = new Random();
-
-    int card = rnd.Next(52);
-    Model.Cvv = card.ToString();
-}
-
- 
 
 
 <div class="container">
@@ -209,19 +200,19 @@
                 <li><i class="fa fa-road"></i>Mexico CDMX</li>
                 <li><i class="fa fa-phone"></i> <a href="tel:+(52) 55-36476820">(52) 55-36476820</a></li>
                 <li><i class="fa fa-envelope"></i> 
-                    
+
                     <a href="mailto:@string.Concat("contacto@", d)">@string.Concat("contacto@", d)</a>
-                    
-                
-                
+
+
+
                 </li>
                 <li>
-                    
+
                     <a aria-label="Chat on WhatsApp" href="https://wa.me/525536476820" target="_blank">
                         <img alt="Chat on WhatsApp" style="width:140px;height:30px;border-radius:0px;" src="/img/whatsappbuttongreensmall.png" />
                     </a>
                 </li>
-            
+
             </ul>
         </div>
         <!-- End .company-info -->
@@ -230,12 +221,12 @@
             <h3>@localizer["lblmes"]</h3>
             <EditForm Model="Model" OnValidSubmit=@ValidFormSubmitted OnInvalidSubmit=@InvalidFormSubmitted FormName="Starship8">
                 <DataAnnotationsValidator />
-              
+
 
                 <div>
 
                     <label for="fname">@localizer["lblnombre"]</label>
-                    
+
                     <InputText @bind-Value="Model!.Nombre" maxlength="20" />
 
                     <label>
@@ -249,7 +240,7 @@
                     </label>
                     <input type="hidden" id="cvv" value="@card" />
                     <br />   <br /><br />
-                   
+
                     <label>
                         Ingrese Codigo <label style="color:red;font-weight:bold;">@card</label>
                     </label>
@@ -257,21 +248,21 @@
                     <button type="submit">@localizer["lbltnsend"]</button>   
                     <br /><br />
                 </div>
-            
+
                 <label style="color:red;">
                     <ValidationSummary />
                     @Model.MensajeEnvio
                 </label>
             </EditForm>
-             
-         
+
+
         </div>
-       
+
 
     </div>
-   
+
 </div>
- 
+
 @code {
     private EditContext? editContext;
     private string currentUrl;
@@ -279,12 +270,17 @@
 
     [SupplyParameterFromForm]
     public Starship? Model { get; set; }
-
+    int card;
     protected override void OnInitialized()
     {
         Model ??= new();
         currentUrl = MyNavigationManager.Uri;
         d = currentUrl.Split("//")[1].ToString().Replace("/Contacto", "");
+
+        Random rnd = new Random();
+
+          card = rnd.Next(52);
+        Model.Cvv = card.ToString();
     }
     private void Submit()
     {
@@ -339,14 +335,14 @@
 
         MailMessage m = new MailMessage();
         SmtpClient sc = new SmtpClient();
-        m.From = new MailAddress("contacto@usandria.site");
-        m.To.Add("contacto@usandria.site");
+        m.From = new MailAddress("contacto@ulisessandria.com");
+    
         m.To.Add("contacto@ulisessandria.com");
         m.Subject = "Alguien te busca desde tu cv";
-        sc.Host = "mail.usandria.site";
+        sc.Host = "mail5013.site4now.net";
         m.Body = string.Concat("Datos de Contacto ", Model.Mensaje, " ", Model.Correo, " ", Model.Nombre, " ");
         string str1 = "gmail.com";
-        string str2 = "contacto@usandria.site";
+        string str2 = "contacto@ulisessandria.com";
 
         if (Model.Cvv != Model.Cv)
         {
@@ -358,7 +354,7 @@
             try
             {
                 sc.Port = 587;
-                sc.Credentials = new System.Net.NetworkCredential("contacto@usandria.site", "Ppman233$$");
+                sc.Credentials = new System.Net.NetworkCredential("contacto@ulisessandria.com", "Ppman233$$");
                 sc.EnableSsl = true;
                 sc.Send(m);
                 Model = new();
@@ -376,7 +372,7 @@
 
               
                 sc.Port = 25;
-                sc.Credentials = new System.Net.NetworkCredential("contacto@usandria.site", "Ppman233$$");
+                sc.Credentials = new System.Net.NetworkCredential("contacto@ulisessandria.com", "Ppman233$$");
                 sc.EnableSsl = false;
                 sc.Send(m);
                 Model = new();
