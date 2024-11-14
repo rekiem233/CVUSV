@@ -243,6 +243,60 @@
 &lt;li&gt;&lt;span&gt;XRay implementation (AWS xRay)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</value>
   </data>
+  <data name="dataWorkKidzania" xml:space="preserve">
+    <value>&lt;p style="padding-left: 40px;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;em&gt;&lt;strong&gt;Activities&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analysis, Planning and Design of MenuBoard and Queuing Board modules to design and project restaurant menus on HDMI LCD screens using a&lt;br /&gt;raspberry Pi3 and a traditional browser and that has a web interface where you can design, configure a food menu and manage access to the airport&lt;br /&gt;through the console.&lt;a href="https://www.youtube.com/watch?v=9_nm1HPPgsQ" target="_blank"&gt; See Video of final product&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Architecture Design for Viewer in Raspbian.&lt;/li&gt;
+&lt;li&gt;Architecture Design for Viewer in Windows IoT&lt;/li&gt;
+&lt;li&gt;Development of menuboard menu interface design module.&lt;/li&gt;
+&lt;li&gt;Development of menuboard Canvas work area.&lt;/li&gt;
+&lt;li&gt;Development and integration of menuboard product slider.&lt;/li&gt;
+&lt;li&gt;Development and integration of images in menuboard.&lt;/li&gt;
+&lt;li&gt;Development of user interface.&lt;/li&gt;
+&lt;li&gt;Development of content interpreter.&lt;/li&gt;
+&lt;li&gt;Development of dynamic functionality and rotation intervals of advertising containers.&lt;/li&gt;
+&lt;li&gt;Integration of GPIO LED indicators in raspberry.&lt;/li&gt;
+&lt;li&gt;Development of functionality to operate in offline mode.&lt;/li&gt;
+&lt;li&gt;Development of backend services for storage and configuration.&lt;/li&gt;
+&lt;li&gt;Queue List module development.&lt;/li&gt;
+&lt;li&gt;Current shift module development.&lt;/li&gt;
+&lt;li&gt;Previous access list development.&lt;/li&gt;
+&lt;li&gt;Provisioning connectivity with Azure IoTHub&lt;/li&gt;
+&lt;li&gt;Connectivity with Service Bus&lt;/li&gt;
+&lt;li&gt;Development of functions, stored procedures, types&lt;/li&gt;
+&lt;li&gt;Development of models, views, and controllers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="text-decoration: underline;"&gt;Technologies&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ASP.NET Frameworks C# MVC&lt;/li&gt;
+&lt;li&gt;MSSQL&lt;/li&gt;
+&lt;li&gt;Azure&lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Service Bus&lt;/li&gt;
+&lt;li&gt;Functions&lt;/li&gt;
+&lt;li&gt;Angular&lt;/li&gt;
+&lt;li&gt;JSon&lt;/li&gt;
+&lt;li&gt;Razor&lt;/li&gt;
+&lt;li&gt;HTML5 CSS&lt;/li&gt;
+&lt;li&gt;Bootstrap&lt;/li&gt;
+&lt;li&gt;WebPack&lt;/li&gt;
+&lt;li&gt;VueJS&lt;/li&gt;
+&lt;li&gt;UWP&lt;/li&gt;
+&lt;li&gt;Web API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="padding-left: 40px;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;&lt;em&gt;Achievements&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menus put into production in raspberry.&lt;/li&gt;
+&lt;li&gt;Correct operation with cloud integration.&lt;/li&gt;
+&lt;li&gt;Best practices.&lt;/li&gt;
+&lt;li&gt;Completion of modules left to build.&lt;/li&gt;
+&lt;li&gt;Complete satisfaction with UAT version&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
   <data name="dataWorkKinich" xml:space="preserve">
     <value>&lt;p style="padding-left: 40px;"&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;&lt;span&gt;Activities:&lt;/span&gt;&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -429,10 +483,9 @@
     <value>Assignee</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>&lt;p&gt;I am a software engineer with extensive experience in the development, supervision and implementation of computer systems, I am a person committed to my activities with a high sense of responsibility, performing high quality work and with excellent professionalism and who is constantly learning new technologies.&lt;/p&gt;
-&lt;p&gt;I have extensive experience designing and programming robust cloud architectures oriented to microservices, Serverless with efficient methodologies, as well as hybrid or completely cloud infrastructures of &lt;strong&gt;AWS, Azure, GCP, Digital Ocean and Cloudflare.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I am an expert full-stack programmer in the languages &lt;strong&gt;​​C#, Java, JavaScript, Python, PHP and Visual Basic &lt;/strong&gt;and also in databases &lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; as BackEnd and in &lt;strong&gt;Angular, NodeJS, Blazor , HTML Jquery Bootstrap, React&lt;/strong&gt; and &lt;strong&gt;WebAssembly&lt;/strong&gt; as FrontEnd and implemented countless computer systems throughout my professional experience of type Desktop, Web, Services and native mobile applications, and also an expertise in Provisioning and networks with &lt;strong&gt;Windows Server&lt;/strong&gt; since the version 2002 to 2022 and on &lt;strong&gt;Ubuntu&lt;/strong&gt; and &lt;strong&gt;CentOs&lt;/strong&gt; &lt;strong&gt;Linux&lt;/strong&gt; servers.&lt;/p&gt;
-&lt;p&gt;I have experience in design, provisioning and configuration in continuous integration and &lt;strong&gt;DevOps, GitOps&lt;/strong&gt; work environments and can serve as a &lt;strong&gt;Site Engineer (SRE)&lt;/strong&gt; to ensure that systems are reliable, scalable and resilient, maintaining high levels of availability and performance.&lt;/p&gt;</value>
+    <value>&lt;p&gt;I am a software engineer with experience in the development, supervision and implementation of computer systems. I consider myself a person committed to my activities with a high sense of responsibility performing exceptional work.&lt;/p&gt;
+&lt;p&gt;I have experience designing, programming and managing robust OnCloud, OnPremise or hybrid software architectures oriented to microservices with cloud providers &lt;strong&gt;AWS, Azure, GCP, Digital Ocean, Cloudflare&lt;/strong&gt; and &lt;strong&gt;Terraform&lt;/strong&gt; as Infrastructure as code.&lt;/p&gt;
+&lt;p&gt;I am an expert full stack programmer in the &lt;strong&gt;.NET C#, Java, JavaScript, Python, PHP&lt;/strong&gt; and &lt;strong&gt;Visual Basic&lt;/strong&gt; languages ​​​​and also in &lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; databases as &lt;strong&gt;BackEnd&lt;/strong&gt; and in the &lt;strong&gt;FrontEnd&lt;/strong&gt; &lt;strong&gt;Angular&lt;/strong&gt;, &lt;strong&gt;NodeJS&lt;/strong&gt;, &lt;strong&gt;Blazor&lt;/strong&gt;, &lt;strong&gt;HTML JQuery Bootstrap, React and WebAssembly&lt;/strong&gt; in my experience and implemented various types of desktop computing systems, Web Forms, Web APIs and native mobile applications, I also have experience in provisioning network topologies with &lt;strong&gt;Windows Server&lt;/strong&gt; and &lt;strong&gt;Linux&lt;/strong&gt;.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>I am a person committed to my activities and with a high sense of responsibility, offering high quality work and excellent professionalism.</value>

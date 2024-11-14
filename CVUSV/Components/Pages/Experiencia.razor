@@ -11,6 +11,8 @@
     string bestdaywork = string.Empty;
     string nextawork = string.Empty;
     string kinichwork = string.Empty;
+    string kidzaniawork = string.Empty;
+
     string engenwork = string.Empty;
     string mylastwork = string.Empty;
     string mybestday = string.Empty;
@@ -21,6 +23,7 @@
         kinichwork = localizer["dataWorkKinich"];
         engenwork = localizer["dataWorkEngen"];
         // mylastwork = localizer["lbllastwork"];
+        kidzaniawork = localizer["dataWorkKidzania"];
         // mybestday = localizer["lblbestdaywork"];
         base.OnInitialized();
     }
@@ -103,6 +106,12 @@
             <td>11-19 / 10-21</td>
             <td>@localizer["lblw2w"]</td>
             <td> @((MarkupString)bestdaywork)</td>
+        </tr>
+        <tr>
+            <td>Proyecto Kidzania</td>
+            <td>03-18 / 11-19</td>
+            <td>@localizer["lblw2w"]</td>
+            <td> @((MarkupString)kidzaniawork)</td>
         </tr>
 
         @* <tr>
