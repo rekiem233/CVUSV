@@ -479,7 +479,7 @@
     <value>Correo</value>
   </data>
   <data name="lbldatacontact" xml:space="preserve">
-    <value>5536476820</value>
+    <value>2204915056</value>
   </data>
   <data name="lbldate" xml:space="preserve">
     <value>Fecha</value>
@@ -488,9 +488,17 @@
     <value>Asignación</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>&lt;p style="text-align: justify;"&gt;Soy un ingeniero en software con experiencia en el desarrollo, supervisi&amp;oacute;n e implementaci&amp;oacute;n de sistemas de c&amp;oacute;mputo, me considero una persona comprometida con mis actividades con un alto sentido de responsabilidad desempe&amp;ntilde;ando trabajo excepcional.&lt;/p&gt;
-&lt;p style="text-align: justify;"&gt;Tengo &amp;nbsp;&amp;nbsp;experiencia dise&amp;ntilde;ando, programando y administrando arquitecturas de software robustas &lt;strong&gt;OnCloud&lt;/strong&gt;, &lt;strong&gt;OnPremise &lt;/strong&gt;o &lt;strong&gt;hibridas&lt;/strong&gt; orientada a&amp;nbsp;&lt;strong&gt;microservicios&lt;/strong&gt; con los proveedores de&amp;nbsp; nube &lt;strong&gt;AWS, Azure, GCP, Digital Ocean, Cloudflare y Terraform &lt;/strong&gt;como Infraestructura como c&amp;oacute;digo.&lt;/p&gt;
-&lt;p style="text-align: justify;"&gt;Soy un experto programador de pila completa en los lenguajes&amp;nbsp;.&lt;strong&gt;NET C#, Java, JavaScript, Python, PHP y Visual Basic&lt;/strong&gt;&amp;nbsp;y tambi&amp;eacute;n en bases de datos&amp;nbsp;&lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt;&amp;nbsp;como&amp;nbsp;&lt;em&gt;&lt;strong&gt;BackEnd&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;y en el &lt;em&gt;&lt;strong&gt;FrontEnd&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;Angular, NodeJS, Blazor, HTML JQuery Bootstrap, React&lt;/strong&gt;&amp;nbsp;y&amp;nbsp;&lt;strong&gt;WebAssembly&lt;/strong&gt; en mi experiencia e implementado diversos tipos sistemas de c&amp;oacute;mputo tipo &lt;strong&gt;Escritorio, Web Forms, Web API&amp;rsquo;s y aplicaciones m&amp;oacute;viles nativas,&lt;/strong&gt; tambi&amp;eacute;n cuento con un experiencia en Aprovisionamiento de topolog&amp;iacute;as de red con &lt;strong&gt;Windows Server&lt;/strong&gt; y &lt;strong&gt;Linux&lt;/strong&gt;.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Soy un Ingeniero en computación FullStack creativo en el diseño, programación e implementación de soluciones de software, de aplicaciones web, móviles, escritorio y microservicios utilizando las herramientas más robustas y confiables del mercado entregando un trabajo excepcional y de alta calidad aplicando 30 años de experiencia en el sector.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Domino efectivamente los lenguajes de programación Java, JavaScript, TypeScript, C#, Visual Basic, PHP y Python y un dominio de su totalidad de las bases de datos SQL Server, Oracle, MySQL, Postgresql, DynamoDB, Cassandra y MongoDB, soy apasionado a la tecnología y me gusta compartir mis conocimientos generales a través de mi canal de YouTube con el fin de ayudar a otros desarrolladores.&lt;/p&gt;
+&lt;p&gt;Soy experto en muchos de los servicios ofrecidos por la nube de Azure, AWS, Google, FireBase y CloudFlare desde el año 2010 y cuento con una certificación en VMWare para desarrollar aplicaciones con el patrón Cloud Native para poder simplificar la infraestructura en la nube, redes, seguridad y aplicaciones con amplio expertise comprobable en sistemas Operativos Solaris, Linux y Windows.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Tengo experiencia en tecnologías de inteligencia artificial en la modalidad de aprendizaje automático, APIs de voz y texto e idioma, APIs de imagen y video e IA generativa, que podrán encontrar como pruebas de concepto y proyectos piloto en mi canal de GitHub.&lt;/p&gt;
+&lt;p&gt;He creado eficientes ambientes de DevOps, en la nube con herramientas para la integración y entrega continúa aplicando el concepto de Aplicaciones Modernas.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;En el año 2002 e inicios de mi carrera trabaje como Proveedor/Chofer de Hardware con Servidores Mainframe y Midrange AS/400e de la línea E-bussines donde di consultoría a empresas como Nacobre, Interfil, Rubermaid dando mantenimiento a sistemas Cobol, RPG, C++ e instalando redes y hardware aunque mi primer programa de Altas, Bajas y cambios lo programé a la edad de 12 años con el lenguaje QBASIC y Clipper en Windows 2.0 en el año 1996 para un familiar que tenía una empresa de electrónica vendiendo este sistema de clientes.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;He tenido infinidad de retos, pero los más notorios últimamente han sido poder haber contribuido en la arquitectura de alta disponibilidad de los sistemas POS de las cadenas de conveniencia OXXO, HEB eFC2, BestDay y la migración de diferentes API’S a nuevas tecnologías que se ejecutaban OnPremise a la nube y múltiples reingenierías de aplicaciones.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>Soy una persona comprometida con mis actividades y con un alto sentido de responsabilidad desempeñando un trabajo de gran calidad y con excelente profesionalismo.</value>
@@ -560,7 +568,7 @@
     <value>Resumen</value>
   </data>
   <data name="lblsitedesc" xml:space="preserve">
-    <value>Sitio desarrollado con Blazor .NET 8, EF Core, SQL Server 2019 y protegido con CloudFlare con cabezeros seguros incluidos</value>
+    <value>Sitio desarrollado con Blazor .NET 8, EF Core, SQL Server 2019 y protegido con CloudFlare con cabezeros seguros incluidos y microservicios de java</value>
   </data>
   <data name="lblsoa" xml:space="preserve">
     <value>Servidor de aplicaciones</value>
@@ -669,14 +677,5 @@
   </data>
   <data name="MenuReferencias" xml:space="preserve">
     <value>Portafolio</value>
-  </data>
-  <data name="String" xml:space="preserve">
-    <value>Soy un ingeniero en software con experiencia en el desarrollo, supervisión e implementación de sistemas de cómputo, me considero una persona comprometida con mis actividades con un alto sentido de responsabilidad desempeñando trabajo excepcional.</value>
-  </data>
-  <data name="String1" xml:space="preserve">
-    <value>Tengo   experiencia en el diseño y programación arquitecturas robustas OnCloud, OnPremise o hibridas orientada a microservicios usando metodologías y herramientas eficientes con los proveedores de  nube AWS, Azure, GCP, Digital Ocean, Cloudflare y Terraform como Infraestructura como código.</value>
-  </data>
-  <data name="String2" xml:space="preserve">
-    <value>Soy un experto programador de pila completa en los lenguajes .NET C#, Java, JavaScript, Python, PHP y Visual Basic y también en bases de datos SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB como BackEnd y en el FrontEnd  Angular, NodeJS, Blazor, HTML JQuery Bootstrap, React y WebAssembly en mi experiencia e implementado diversos de sistemas de cómputo   de tipo Escritorio, Web, Web API’s y aplicaciones móviles nativas, y también cuento con un expertise en Aprovisionamiento de topologías de red con Windows Server y Linux.</value>
   </data>
 </root>

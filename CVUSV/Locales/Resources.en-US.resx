@@ -474,7 +474,7 @@
     <value>Email</value>
   </data>
   <data name="lbldatacontact" xml:space="preserve">
-    <value>5536476820</value>
+    <value>2204915056</value>
   </data>
   <data name="lbldate" xml:space="preserve">
     <value>Date</value>
@@ -483,9 +483,18 @@
     <value>Assignee</value>
   </data>
   <data name="lbldesc1" xml:space="preserve">
-    <value>&lt;p&gt;I am a software engineer with experience in the development, supervision and implementation of computer systems. I consider myself a person committed to my activities with a high sense of responsibility performing exceptional work.&lt;/p&gt;
-&lt;p&gt;I have experience designing, programming and managing robust OnCloud, OnPremise or hybrid software architectures oriented to microservices with cloud providers &lt;strong&gt;AWS, Azure, GCP, Digital Ocean, Cloudflare&lt;/strong&gt; and &lt;strong&gt;Terraform&lt;/strong&gt; as Infrastructure as code.&lt;/p&gt;
-&lt;p&gt;I am an expert full stack programmer in the &lt;strong&gt;.NET C#, Java, JavaScript, Python, PHP&lt;/strong&gt; and &lt;strong&gt;Visual Basic&lt;/strong&gt; languages ​​​​and also in &lt;strong&gt;SQL Server, Sybase, Oracle, MySQL, Cassandra, MongoDB, DynamoDB&lt;/strong&gt; databases as &lt;strong&gt;BackEnd&lt;/strong&gt; and in the &lt;strong&gt;FrontEnd&lt;/strong&gt; &lt;strong&gt;Angular&lt;/strong&gt;, &lt;strong&gt;NodeJS&lt;/strong&gt;, &lt;strong&gt;Blazor&lt;/strong&gt;, &lt;strong&gt;HTML JQuery Bootstrap, React and WebAssembly&lt;/strong&gt; in my experience and implemented various types of desktop computing systems, Web Forms, Web APIs and native mobile applications, I also have experience in provisioning network topologies with &lt;strong&gt;Windows Server&lt;/strong&gt; and &lt;strong&gt;Linux&lt;/strong&gt;.&lt;/p&gt;</value>
+    <value>&lt;p&gt;I am a creative Full-Stack Computer Engineer specializing in the design, programming, and implementation of software solutions, web, mobile, desktop, and microservices applications, using the most robust and reliable tools on the market, delivering exceptional, high-quality work based on 30 years of industry experience.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I have a strong command of Java, JavaScript, TypeScript, C#, Visual Basic, PHP, and Python programming languages, and a complete command of SQL Server, Oracle, MySQL, PostgreSQL, DynamoDB, Cassandra, and MongoDB databases. I am passionate about technology and enjoy sharing my general knowledge through my YouTube channel to help other developers.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I have been an expert in many of the cloud services offered by Azure, AWS, Google, FireBase, and CloudFlare since 2010. I hold a VMware certification to develop applications with the Cloud Native pattern, simplifying cloud infrastructure, networking, security, and applications. I also have extensive proven expertise in Solaris, Linux, and Windows operating systems.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I have experience in artificial intelligence technologies in the form of machine learning, voice, text, and language APIs, image and video APIs, and generative AI, which you can find as proofs of concept and pilot projects on my GitHub channel.&lt;/p&gt;
+&lt;p&gt;I have created efficient DevOps environments in the cloud with tools for integration and delivery, continuing to apply the concept of Modern Applications.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;In 2002, early in my career, I worked as a Hardware Supplier/Driver with Mainframe and Midrange AS/400e Servers in the E-business line, where I consulted for companies such as Nacobre, Interfil, and Rubermaid, maintaining Cobol, RPG, and C++ systems and installing networks and hardware. I programmed my first Add/Remove, Delete, and Change program at the age of 12 using QBASIC and Clipper on Windows 2.0 in 1996 for a relative who owned an electronics company selling this system to clients.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I have had countless challenges, but the most notable ones recently have been contributing to the high-availability architecture of the POS systems of the convenience chains OXXO, HEB eFC2, and BestDay, and the migration of different APIs to new technologies that ran on-premise in the cloud, along with multiple application reengineering projects.&lt;/p&gt;</value>
   </data>
   <data name="lbldesc2" xml:space="preserve">
     <value>I am a person committed to my activities and with a high sense of responsibility, offering high quality work and excellent professionalism.</value>
@@ -554,7 +563,7 @@
     <value>Resume</value>
   </data>
   <data name="lblsitedesc" xml:space="preserve">
-    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019 protected with CloudFlare and set secure headers</value>
+    <value>Site made with Blazor .NET 8, EF Core, SQL Server 2019 protected with CloudFlare and set secure headers and Java 21 microservice</value>
   </data>
   <data name="lblsoa" xml:space="preserve">
     <value>Server App</value>
