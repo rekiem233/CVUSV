@@ -7,11 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Include="wwwroot\en\CVUlisesSandria.pdf" />
-      <None Include="wwwroot\es\CVUlisesSandria.pdf" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Joonasw.AspNetCore.SecurityHeaders" Version="5.0.0" />
     </ItemGroup>
 
